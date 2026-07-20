@@ -31,7 +31,7 @@ export default function Home() {
     </section>
 
     <section className="concept" id="future">
-      <div className="conceptInner"><span>THE FUTURE YOU CREATE</span><h2>あなたが教えて、<br/><em>人が喜ぶ講座</em>が始まる。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><div className="futureGrid"><article><b>01</b><h3>自分の名前で<br/>講座が公開される</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>学びを求める人に<br/>講座が届いていく</h3></article><article><b>04</b><h3>資格が実績となり<br/>次の機会につながる</h3></article></div><p>「教えたい」という思いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、専用の仕組みが支えます。</p></div>
+      <div className="conceptInner"><span>THE FUTURE YOU CREATE</span><h2>あなたが教えて、<br/><em>人が喜ぶ講座</em>が始まる。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><div className="futureGrid"><article><b>01</b><h3>見込み客の<br/>リストが作れる</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>学びを求める人に<br/>講座が届いていく</h3></article><article><b>04</b><h3>資格が実績となり<br/>次の機会につながる</h3></article></div><p>「教えたい」という思いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、専用の仕組みが支えます。</p></div>
     </section>
 
     <section className="how section" id="how">
