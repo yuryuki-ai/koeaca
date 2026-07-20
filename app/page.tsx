@@ -9,7 +9,7 @@ export default function Home() {
       <div className="heroInner">
         <p className="overline">資格を取った、その先で止まっていませんか。</p>
         <p className="campaign">COURSE LAUNCH CAMPAIGN</p>
-        <h1>眠っている資格を、<br/><em>あなたを選ぶ理由</em>に。</h1>
+        <h1>取得した資格を、<br/><em>あなたのオンライン講座</em>に。</h1>
         <p className="heroLead">学んだ知識も、磨いてきた声も、講座として届かなければ、<br/>受講生の変化にも、あなたの実績にもつながりません。<br/>企画・公開・運営・集客をひとつにして、最初の講座を形にします。</p>
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分の講座を形にする <span>→</span></a><a className="button secondary" href="#future">開講後の未来を見る</a></div>
         <p className="limit"><b>20名様限定</b><span>講座開講パッケージ</span><strong>¥198,000<small>（税込）</small></strong><del>通常価格 ¥250,000</del></p>
