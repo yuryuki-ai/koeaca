@@ -81,7 +81,7 @@ export default function Home() {
       <details><summary>以前、開講パッケージに申し込んでいます。</summary><p>以前に「声の表現アカデミー開講パッケージ」へお申込みの方は、新たなお申込みは不要で移行予定です。</p></details>
     </div></section>
 
-    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>COURSE LAUNCH CAMPAIGN</span><h2>次に資格を取る前に、<br/>今ある資格を届けませんか。</h2><p>あなたの経験だから学べることを、待っている人がいます。<br/>まずは、どんな講座が形にできるかをご相談ください。</p><a className="button primary large" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
+    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>COURSE LAUNCH CAMPAIGN</span><h2>あなたの資格を、待っている人へ。<br/>講座という形で届けませんか。</h2><p>あなたの経験だから学べることを、待っている人がいます。<br/>まずは、どんな講座が形にできるかをご相談ください。</p><a className="button primary large" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
     <footer><a className="logo footerLogo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
     <a className="mobileCta" href={inquiryUrl}>お問い合わせ <span>→</span></a>
