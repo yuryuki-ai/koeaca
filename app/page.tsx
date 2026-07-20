@@ -7,26 +7,31 @@ export default function Home() {
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
-        <p className="overline">声の表現アカデミー — プロフェッサー資格者限定</p>
+        <p className="overline">資格を取った、その先で止まっていませんか。</p>
         <p className="campaign">COURSE LAUNCH CAMPAIGN</p>
-        <h1>資格を、<em>届く仕組み</em>に。</h1>
-        <p className="heroLead">「資格を取ったものの、何から始めよう？」<br/>講座の企画から公開、運営、集客まで。<br/>あなたの講座開講を、一緒に実現します。</p>
-        <div className="heroActions"><a className="button primary" href={inquiryUrl}>講座開講について問い合わせる <span>→</span></a><a className="button secondary" href="#how">仕組みを見る</a></div>
+        <h1>資格を活かした、<br/><em>あなただけのオンライン講座</em>を。</h1>
+        <p className="heroLead">学んだ知識も、磨いてきた声も、講座として届かなければ、<br/>受講生の変化にも、あなたの実績にもつながりません。<br/>企画・公開・運営・集客をひとつにして、最初の講座を形にします。</p>
+        <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分の講座を形にする <span>→</span></a><a className="button secondary" href="#future">開講後の未来を見る</a></div>
         <p className="limit"><b>20名様限定</b><span>講座開講パッケージ</span><strong>¥198,000<small>（税込）</small></strong><del>通常価格 ¥250,000</del></p>
       </div>
     </section>
 
     <section className="intro section">
-      <div className="sectionTitle"><span>FOR WHO</span><h2>こんな悩み、<br/>ありませんか。</h2></div>
+      <div className="sectionTitle"><span>FOR WHO</span><h2>「いつか教えたい」が、<br/>止まったままになっていませんか。</h2></div>
       <div className="worryGrid">
-        <article><b>01</b><h3>資格は取ったが、<br/>次の一歩が分からない</h3><p>講座の作り方も、公開の仕方も、ゼロから調べるのは大変です。</p></article>
-        <article><b>02</b><h3>本業と両立で、<br/>指導に割ける時間が限られる</h3><p>たくさんの時間をかけなくても、始められる形を用意しました。</p></article>
-        <article><b>03</b><h3>集客まで、<br/>ひとりで抱えたくない</h3><p>告知や販促のサポートも、パッケージに含まれています。</p></article>
+        <article><b>01</b><h3>何を、誰に、どう教えるか<br/>決めきれない</h3><p>知識はあるのに講座の形にできず、考えるほど最初の一歩が重くなる。</p></article>
+        <article><b>02</b><h3>準備や運営に追われて<br/>本業と両立できるか不安</h3><p>ページ作成、決済、連絡、出席管理。指導以外の作業が多すぎて手が止まる。</p></article>
+        <article><b>03</b><h3>つくっても受講生が<br/>集まらない気がする</h3><p>自分ひとりの発信だけで、本当に必要な人へ届くのか自信が持てない。</p></article>
       </div>
     </section>
 
-    <section className="concept">
-      <div className="conceptInner"><span>THE NEW ACADEMY</span><h2>資格という財産を、<br/><em>「届く形」</em>に変える。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><p>専用プラットフォームの力を借り、運営負担を抑えながら、資格を活かした新しい一歩を始められます。</p></div>
+    <section className="inaction section">
+      <div className="inactionCopy"><span>THE COST OF WAITING</span><h2>「いつか始めよう」のままでは、<br/>資格は使われない。</h2><p>時間が経つほど、学んだときの熱と自信は少しずつ薄れていきます。その間にも、あなたの指導を必要としている人は、別の講座を選んでいるかもしれません。</p><strong>今必要なのは、もう一つ資格を増やすことではなく、<br/>今ある資格を「選ばれる講座」に変える仕組みです。</strong></div>
+      <div className="inactionList"><p><b>01</b><span>調べ続けるだけで、公開日は決まらない</span></p><p><b>02</b><span>経験を積めず、講師としての自信も育たない</span></p><p><b>03</b><span>届けたい相手との出会いが先送りになる</span></p></div>
+    </section>
+
+    <section className="concept" id="future">
+      <div className="conceptInner"><span>THE FUTURE YOU CREATE</span><h2>あなたが教えて、<br/><em>人が喜ぶ講座</em>が始まる。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><div className="futureGrid"><article><b>01</b><h3>見込み客の<br/>リストが作れる</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>学びを求める人に<br/>講座が届いていく</h3></article><article><b>04</b><h3>資格が実績となり<br/>次の機会につながる</h3></article></div><p>「教えたい」という思いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、専用の仕組みが支えます。</p></div>
     </section>
 
     <section className="how section" id="how">
@@ -39,11 +44,11 @@ export default function Home() {
     </section>
 
     <section className="features section" id="features">
-      <div className="sectionTitle"><span>PACKAGE FEATURES</span><h2>講座開講のハードルを、<br/>一つずつ軽くします。</h2></div>
+      <div className="sectionTitle"><span>PACKAGE FEATURES</span><h2>ひとりでは止まりやすい4つを、<br/>まとめて前に進めます。</h2></div>
       <div className="featureList">
-        <article><span>＋</span><div><small>PLANNING</small><h3>市場分析をして、講座の下書きを作成</h3><p>講座構成やカリキュラムのたたき台をご用意。ゼロから考える必要はなく、内容を確認して決めるだけで形になります。</p></div></article>
+        <article><span>＋</span><div><small>PLANNING</small><h3>「何を教えるか」を、選ばれる講座の形へ</h3><p>市場分析をもとに、講座構成やカリキュラムのたたき台をご用意。あなたは専門性を生かした内容の確認に集中できます。</p></div></article>
         <article><span>＋</span><div><small>AUTOMATION</small><h3>運営の手間を自動化</h3><p>出席リマインド、受講生への連絡、決済・入金管理などの細かな事務作業をプラットフォーム側で自動化します。</p></div></article>
-        <article><span>＋</span><div><small>MARKETING</small><h3>集客も、ひとりで抱えない</h3><p>メール配信や紹介記事掲載などのサポートを用意。告知をゼロから一人で始めなくても済みます。</p></div></article>
+        <article><span>＋</span><div><small>MARKETING</small><h3>「届け方が分からない」も、ひとりで抱えない</h3><p>メール配信や紹介記事掲載などのサポートを用意。アカデミー全体の発信も活用しながら、必要な人との接点をつくります。</p></div></article>
         <article><span>＋</span><div><small>FLEXIBLE</small><h3>動画・ライブ、どちらにも対応</h3><p>時間を選ばず学べる動画講座も、受講生とリアルタイムにつながるライブ講座も公開できます。</p></div></article>
       </div>
     </section>
@@ -63,7 +68,7 @@ export default function Home() {
 
     <section className="price section" id="price">
       <div className="priceCard">
-        <span className="stamp">20名様<br/>のみ</span><small>プロフェッサー資格者限定</small><h2>講座開講パッケージ</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><p>講座の企画・ページ作成・公開・運営自動化・集客サポートを含みます。</p><a className="button primary wide" href={inquiryUrl}>申込み条件を問い合わせる <span>→</span></a><em>お申込み時期・条件の詳細はお問い合わせください</em>
+        <span className="stamp">20名様<br/>のみ</span><small>プロフェッサー資格者限定</small><h2>「いつか」を、開講日に変えるパッケージ</h2><p className="priceIntro">企画・ページ作成・公開・運営自動化・集客サポート。ひとりで調べ、作り、設定する時間をまとめて短縮します。</p><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><a className="button primary wide" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><em>お申込み時期・条件の詳細はお問い合わせください</em>
       </div>
       <div className="feeInfo"><div className="sectionTitle"><span>COURSE SALES</span><h2>講座開講後の手数料</h2></div><div className="fees"><div><b>9.5%</b><span>決済手数料等<br/>プラットフォーム利用料</span></div><i>＋</i><div><b>20%</b><span>協会運営手数料</span></div><i>＝</i><div className="total"><b>29.5%</b><span>合計差引額</span></div></div><div className="examples"><p><b>受講料22,000円の場合</b><span>講師の手取り 15,510円</span></p><p><b>受講料7,700円の場合</b><span>講師の手取り 5,429円</span></p></div><p className="zero">受講料無料の講座・体験講座は、上記手数料がかかりません。</p></div>
     </section>
@@ -76,7 +81,7 @@ export default function Home() {
       <details><summary>以前、開講パッケージに申し込んでいます。</summary><p>以前に「声の表現アカデミー開講パッケージ」へお申込みの方は、新たなお申込みは不要で移行予定です。</p></details>
     </div></section>
 
-    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>COURSE LAUNCH CAMPAIGN</span><h2>資格を、届く仕組みに。</h2><p>講座の企画から一緒に考え、開講まで伴走します。<br/>お申込み・お問い合わせは、ご案内メールへの返信または下記よりご連絡ください。</p><a className="button primary large" href={inquiryUrl}>講座開講について問い合わせる <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
+    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>COURSE LAUNCH CAMPAIGN</span><h2>あなたの教えを、<br/>オンライン講座で届けませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>まずは、どんな講座が形にできるかをご相談ください。</p><a className="button primary large" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
     <footer><a className="logo footerLogo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
     <a className="mobileCta" href={inquiryUrl}>お問い合わせ <span>→</span></a>
