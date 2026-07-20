@@ -26,7 +26,7 @@ export default function Home() {
     </section>
 
     <section className="concept">
-      <div className="conceptInner"><span>THE NEW ACADEMY</span><h2>資格という財産を、<br/><em>「届く形」</em>に変える。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。プロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><p>専用プラットフォームの力を借り、運営負担を抑えながら、資格を活かした新しい一歩を始められます。</p></div>
+      <div className="conceptInner"><span>THE NEW ACADEMY</span><h2>資格という財産を、<br/><em>「届く形」</em>に変える。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><p>専用プラットフォームの力を借り、運営負担を抑えながら、資格を活かした新しい一歩を始められます。</p></div>
     </section>
 
     <section className="how section" id="how">
