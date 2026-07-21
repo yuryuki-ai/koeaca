@@ -64,7 +64,7 @@ export default function Home() {
 
     <section className="possibilities section">
       <div className="sectionTitle"><span>YOUR COURSE</span><h2>あなたの得意を、<br/>講座にできます。</h2></div>
-      <div className="genreGrid"><span>朗読</span><span>読み聞かせ</span><span>アナウンス</span><span>ボイス<br/>トレーニング</span></div>
+      <div className="genreGrid"><span>朗読</span><span>読み聞かせ</span><span>アナウンス</span><span>ボイス<br/>トレーニング</span><span>朗読検定対策</span><span>読み聞かせ<br/>検定対策</span><span>朗読コンテスト<br/>対策</span><span>司会</span><span>話し方</span><span>声優</span><span>演技</span></div>
       <div className="formatBox"><div><small>VIDEO COURSE</small><h3>動画講座</h3><p>受講生が好きな時間に学べる、ストック型の講座。</p></div><i>or</i><div><small>LIVE COURSE</small><h3>ライブ講座</h3><p>リアルタイムで指導し、直接フィードバックできる講座。</p></div></div>
     </section>
 
