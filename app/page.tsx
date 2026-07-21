@@ -1,8 +1,10 @@
-const inquiryUrl = "mailto:info@roudokukentei.jp?subject=%E5%A3%B0%E3%81%AE%E8%A1%A8%E7%8F%BE%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E8%AC%9B%E5%BA%A7%E9%96%8B%E8%AC%9B%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6";
+const inquiryUrl = "#consultation";
+const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju4MT14z73Azl-CI85iFAbFC0mzcmfdTxg/viewform?usp=publish-editor";
+const formEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju4MT14z73Azl-CI85iFAbFC0mzcmfdTxg/viewform?embedded=true";
 
 export default function Home() {
   return <main>
-    <header className="header"><a className="logo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><nav><a href="#features">できること</a><a href="#platform">選ばれる理由</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>お問い合わせ</a></header>
+    <header className="header"><a className="logo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><nav><a href="#features">できること</a><a href="#platform">選ばれる理由</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>無料相談</a></header>
 
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
@@ -81,9 +83,14 @@ export default function Home() {
       <details><summary>以前、開講パッケージに申し込んでいます。</summary><p>以前に「声の表現アカデミー開講パッケージ」へお申込みの方は、新たなお申込みは不要で移行予定です。</p></details>
     </div></section>
 
+    <section className="consultation section" id="consultation">
+      <div className="consultationIntro"><span>FREE CONSULTATION</span><h2>まずは、あなたの講座について<br/>無料で相談してみませんか。</h2><p>講座内容が決まっていなくても大丈夫です。フォームを送信しただけで、お申込みになることはありません。</p><ul><li>どんな講座が作れるか知りたい</li><li>費用やサポート内容を確認したい</li><li>集客や運営への不安を相談したい</li></ul></div>
+      <div className="formWrap"><iframe src={formEmbedUrl} title="オンライン講座開講・無料相談フォーム" loading="lazy">読み込んでいます…</iframe><p>フォームが表示されない場合は、<a href={formUrl} target="_blank" rel="noreferrer">Googleフォームを開いてご回答ください</a>。</p></div>
+    </section>
+
     <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>COURSE LAUNCH CAMPAIGN</span><h2>あなたの教えを、<br/>オンライン講座で届けませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>まずは、どんな講座が形にできるかをご相談ください。</p><a className="button primary large" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
     <footer><a className="logo footerLogo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
-    <a className="mobileCta" href={inquiryUrl}>お問い合わせ <span>→</span></a>
+    <a className="mobileCta" href={inquiryUrl}>無料相談フォームへ <span>→</span></a>
   </main>;
 }
