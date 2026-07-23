@@ -69,10 +69,13 @@ export default function Home() {
     </section>
 
     <section className="price section" id="price">
-      <div className="priceCard">
-        <span className="stamp">20名様<br/>のみ</span><small>プロフェッサー資格者限定</small><h2>「いつか」を、開講日に変えるパッケージ</h2><p className="priceIntro">企画・ページ作成・公開・運営自動化・集客サポート。ひとりで調べ、作り、設定する時間をまとめて短縮します。</p><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><a className="button primary wide" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><em>お申込み時期・条件の詳細はお問い合わせください</em>
+      <div className="sectionTitle centered"><span>CHOOSE YOUR PLAN</span><h2>始め方に合わせて選べる、<br/>2つの開講プラン。</h2><p className="planLead">企画・ページ作成・公開・運営自動化・集客サポートは、どちらのプランにも含まれます。</p></div>
+      <div className="planGrid">
+        <article className="priceCard recommended"><span className="planBadge">開講後の手取りを重視</span><small>STANDARD PLAN</small><h2>標準プラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>協会運営手数料</span><strong>20%</strong><small>プラットフォーム利用料等を含む合計 29.5%</small></div><p>初期費用を抑えるよりも、開講後の手取りを多くしたい方に。</p></article>
+        <article className="priceCard lightPlan"><span className="planBadge">初期費用を抑えてスタート</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>協会運営手数料</span><strong>40%</strong><small>プラットフォーム利用料等を含む合計 49.5%</small></div><p>最初にかかる費用を抑えて、講座を始めたい方に。</p></article>
       </div>
-      <div className="feeInfo"><div className="sectionTitle"><span>COURSE SALES</span><h2>講座開講後の手数料</h2></div><div className="fees"><div><b>9.5%</b><span>決済手数料等<br/>プラットフォーム利用料</span></div><i>＋</i><div><b>20%</b><span>協会運営手数料</span></div><i>＝</i><div className="total"><b>29.5%</b><span>合計差引額</span></div></div><div className="examples"><p><b>受講料22,000円の場合</b><span>講師の手取り 15,510円</span></p><p><b>受講料7,700円の場合</b><span>講師の手取り 5,429円</span></p></div><p className="zero">受講料無料の講座・体験講座は、上記手数料がかかりません。</p></div>
+      <div className="planAction"><span className="sharedLimit">プロフェッサー資格者限定・合計20名様</span><a className="button primary wide" href={inquiryUrl}>自分に合うプランを相談する <span>→</span></a><em>お申込み時期・条件の詳細は無料相談でご確認ください</em></div>
+      <p className="zero">受講料無料の講座・体験講座には、販売手数料がかかりません。</p>
     </section>
 
     <section className="faq section" id="faq"><div className="sectionTitle centered"><span>FAQ</span><h2>よくあるご質問</h2></div><div className="faqList">
