@@ -78,7 +78,7 @@ export default function Home() {
       </div>
       <div className="planAction"><span className="sharedLimit">プロフェッサー資格者限定・合計20名様</span><a className="button primary wide" href={inquiryUrl}>自分に合うプランを相談する <span>→</span></a><em>お申込み時期・条件の詳細は無料相談でご確認ください</em></div>
       <div className="recoveryExamples">
-        <div className="recoveryHeading"><span>COURSE FEE SIMULATION</span><h3>何名の受講で、初期費用を回収できる？</h3><p>販売手数料を差し引いた講師受取額を、初期費用に充てた場合の目安です。</p></div>
+        <div className="recoveryHeading"><span>COURSE FEE SIMULATION</span><h3>何名の受講で、初期費用回収の達成ができる？</h3><p>販売手数料を差し引いた講師受取額を、初期費用に充てた場合の目安です。</p></div>
         <div className="recoveryGrid">
           <article><div className="courseName"><small>朗読検定</small><h4>3級対策講座</h4><strong>受講料例 17,800円</strong></div><div className="recoveryPlans"><p><span>スタンダード</span><b>16<small>名</small></b><em>1名あたり受取 12,549円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>200,784円</strong></p><p><span>ライト</span><b>15<small>名</small></b><em>1名あたり受取 8,989円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>134,835円</strong></p></div></article>
           <article><div className="courseName"><small>朗読検定</small><h4>準2級対策講座</h4><strong>受講料例 35,200円</strong></div><div className="recoveryPlans"><p><span>スタンダード</span><b>8<small>名</small></b><em>1名あたり受取 24,816円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>198,528円</strong></p><p><span>ライト</span><b>8<small>名</small></b><em>1名あたり受取 17,776円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>142,208円</strong></p></div></article>
