@@ -12,7 +12,7 @@ export default function Home() {
         <p className="overline">プロフェッサー資格者限定・講座開講パック</p>
         <p className="campaign">FAST TRACK FOR INSTRUCTORS</p>
         <h1>講師として、<br/><em>最速で経験を積む。</em></h1>
-        <p className="heroMetaphor">ハイウェイリムジンに乗るという選択。</p>
+        <p className="heroMetaphor">ＡＩ時代の高速道路に乗るという選択。</p>
         <p className="heroLead">朗読検定合格対策講座という、すでに整備された道。<br/>そして、講座の立ち上げから実践・改善まで、<br/>あなたを個別に支える専属コンサルティング。</p>
         <p className="heroPromise">一人で試行錯誤する何年もの時間を、<br/>講師としての実践と成長の時間に変えます。</p>
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>最速で講師経験を積む方法を相談する <span>→</span></a><a className="button secondary" href="#features">サポート内容を見る</a></div>
