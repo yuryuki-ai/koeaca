@@ -45,6 +45,7 @@ export default function Home() {
         <li><b>02</b><div><span>PUBLISH</span><h3>プラットフォームで<br/>公開</h3><p>専用プラットフォームを使い、あなたの講座ページを作成・公開します。</p></div></li>
         <li><b>03</b><div><span>REACH</span><h3>声の表現<br/>アカデミーへ</h3><p>新しいアカデミーの一講座として公開。全体の集客にも相乗りできます。</p></div></li>
       </ol>
+      <p className="launchSchedule"><span>公開までの目安</span><strong>2〜4週間</strong><small>※講座内容や準備状況により異なります。</small></p>
     </section>
 
     <section className="features section" id="features">
@@ -54,6 +55,15 @@ export default function Home() {
         <article><span>＋</span><div><small>AUTOMATION</small><h3>運営の手間を自動化</h3><p>出席リマインド、受講生への連絡、決済・入金管理などの細かな事務作業をプラットフォーム側で自動化します。</p></div></article>
         <article><span>＋</span><div><small>MARKETING</small><h3>「届け方が分からない」も、ひとりで抱えない</h3><p>メール配信や紹介記事掲載などのサポートを用意。アカデミー全体の発信も活用しながら、必要な人との接点をつくります。</p></div></article>
         <article><span>＋</span><div><small>FLEXIBLE</small><h3>動画・ライブ、どちらにも対応</h3><p>時間を選ばず学べる動画講座も、受講生とリアルタイムにつながるライブ講座も公開できます。</p></div></article>
+      </div>
+    </section>
+
+    <section className="supportDetails section" id="support">
+      <div className="sectionTitle centered"><span>ONGOING SUPPORT</span><h2>公開して終わりではなく、<br/>講座運営を継続して支えます。</h2></div>
+      <div className="supportGrid">
+        <article><b>01</b><small>相談回数・期間</small><h3>無制限・無期限でサポート</h3><p>受講料から手数料をいただく仕組みのため、講座を公開している間は、相談回数や期間を設けずサポートします。</p></article>
+        <article><b>02</b><small>講座設計・指導</small><h3>企画から実際の指導まで</h3><p>ゼロからの企画、カリキュラム設計、教材づくりに加え、実際の指導で分からないことが出てきた場合もサポートします。</p></article>
+        <article><b>03</b><small>販売ページ作成</small><h3>AIと専門スタッフが作成</h3><p>講座の魅力や対象者に合わせて、AIと専門スタッフが販売ページを作成します。</p></article>
       </div>
     </section>
 
@@ -93,6 +103,10 @@ export default function Home() {
       <details><summary>講座づくりに時間をかけられなくても大丈夫ですか？</summary><p>AIによる講座構成の下書き作成や、運営・集客のサポートが用意されているため、無理なく始めていただけます。</p></details>
       <details><summary>どのジャンルの講座を開講できますか？</summary><p>朗読・読み聞かせ・アナウンス・ボイストレーニングなど、声の表現アカデミーの各ジャンルで開講いただけます。</p></details>
       <details><summary>受講料無料の講座も開講できますか？</summary><p>はい。見込み客獲得のための無料講座や体験講座も開講できます。この場合、販売手数料は必要ありません。</p></details>
+      <details><summary>初期費用以外に月額費用はかかりますか？</summary><p>月額費用はかかりません。受講申込みがあった場合のみ、受講料から販売手数料等を差し引いた金額を、指定の口座へ送金します。</p></details>
+      <details><summary>初期費用を分割で支払えますか？</summary><p>クレジットカードをご利用の場合、カード会社が提供する分割払いをご利用いただけます。利用条件や手数料はカード会社へご確認ください。</p></details>
+      <details><summary>売上はいつ入金されますか？</summary><p>月末締め、翌々月末のお支払いとなります。</p></details>
+      <details><summary>申込み後のキャンセルや返金はできますか？</summary><p>お申込み確定後のキャンセルおよび返金は承れません。内容をご確認のうえ、お申込みください。</p></details>
       <details><summary>以前、開講パッケージに申し込んでいます。</summary><p>以前に「声の表現アカデミー開講パッケージ」へお申込みの方は、新たなお申込みは不要で移行予定です。</p></details>
     </div></section>
 
