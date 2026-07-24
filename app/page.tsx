@@ -77,6 +77,14 @@ export default function Home() {
         <article className="priceCard lightPlan"><span className="planBadge">初期費用を抑えてスタート</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>協会運営手数料</span><strong>40%</strong><small>プラットフォーム利用料等を含む合計 49.5%</small></div><p>最初にかかる費用を抑えて、講座を始めたい方に。</p></article>
       </div>
       <div className="planAction"><span className="sharedLimit">プロフェッサー資格者限定・合計20名様</span><a className="button primary wide" href={inquiryUrl}>自分に合うプランを相談する <span>→</span></a><em>お申込み時期・条件の詳細は無料相談でご確認ください</em></div>
+      <div className="recoveryExamples">
+        <div className="recoveryHeading"><span>COURSE FEE SIMULATION</span><h3>何名の受講で、初期費用を回収できる？</h3><p>販売手数料を差し引いた講師受取額を、初期費用に充てた場合の目安です。</p></div>
+        <div className="recoveryGrid">
+          <article><div className="courseName"><small>朗読検定</small><h4>3級対策講座</h4><strong>受講料例 17,800円</strong></div><div className="recoveryPlans"><p><span>スタンダード</span><b>16<small>名</small></b><em>1名あたり受取 12,549円</em></p><p><span>ライト</span><b>15<small>名</small></b><em>1名あたり受取 8,989円</em></p></div></article>
+          <article><div className="courseName"><small>朗読検定</small><h4>準2級対策講座</h4><strong>受講料例 35,200円</strong></div><div className="recoveryPlans"><p><span>スタンダード</span><b>8<small>名</small></b><em>1名あたり受取 24,816円</em></p><p><span>ライト</span><b>8<small>名</small></b><em>1名あたり受取 17,776円</em></p></div></article>
+        </div>
+        <p className="recoveryNote">※受講料全額をプラットフォーム上で販売し、返金やその他の経費がない場合の概算です。実際の端数処理等により金額が異なる場合があります。</p>
+      </div>
       <p className="zero">受講料無料の講座・体験講座には、販売手数料がかかりません。</p>
     </section>
 
