@@ -10,18 +10,17 @@ export default function Home() {
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
         <p className="overline">プロフェッサー資格者限定・講座開講パック</p>
-        <p className="campaign">FAST TRACK FOR INSTRUCTORS</p>
-        <h1>講師として、<br/><em>最速で経験を積む。</em></h1>
-        <p className="heroMetaphor">ＡＩ時代の高速道路に乗るという選択。</p>
-        <p className="heroLead">朗読検定合格対策講座という、すでに整備された道。<br/>そして、講座の立ち上げから実践・改善まで、<br/>あなたを個別に支える専属コンサルティング。</p>
-        <p className="heroPromise">一人で試行錯誤する何年もの時間を、<br/>講師としての実践と成長の時間に変えます。</p>
-        <div className="heroActions"><a className="button primary" href={inquiryUrl}>最速で講師経験を積む方法を相談する <span>→</span></a><a className="button secondary" href="#features">サポート内容を見る</a></div>
+        <p className="campaign">YOUR DREAM, YOUR WAY</p>
+        <h1>迷う時間はもうおしまい。<br/><em>わたしらしく、まっすぐ夢へ。</em></h1>
+        <p className="heroLead">資格を活かして、いつか自分の講座を開きたい。<br/>その想いを、朗読検定合格対策講座と、<br/>あなたに寄り添う専属コンサルティングが形にします。</p>
+        <p className="heroPromise">ひとりで迷い続ける時間を、<br/>受講生と出会い、講師として輝く時間に変えます。</p>
+        <div className="heroActions"><a className="button primary" href={inquiryUrl}>わたしらしい講座の始め方を相談する <span>→</span></a><a className="button secondary" href="#features">サポート内容を見る</a></div>
         <p className="limit"><b>合計20名様限定</b><span>選べる2つの開講プラン</span><strong>¥132,000<small>〜（税込）</small></strong></p>
       </div>
     </section>
 
     <section className="intro section">
-      <div className="sectionTitle"><span>FOR WHO</span><h2>「いつか教えたい」が、<br/>止まったままになっていませんか。</h2></div>
+      <div className="sectionTitle"><span>FOR YOU</span><h2>「わたしにもできるかな」と、<br/>夢の前で立ち止まっていませんか。</h2></div>
       <div className="worryGrid">
         <article><b>01</b><h3>何を、誰に、どう教えるか<br/>決めきれない</h3><p>知識はあるのに講座の形にできず、考えるほど最初の一歩が重くなる。</p></article>
         <article><b>02</b><h3>準備や運営に追われて<br/>本業と両立できるか不安</h3><p>ページ作成、決済、連絡、出席管理。指導以外の作業が多すぎて手が止まる。</p></article>
@@ -30,12 +29,12 @@ export default function Home() {
     </section>
 
     <section className="inaction section">
-      <div className="inactionCopy"><span>THE COST OF WAITING</span><h2>「いつか始めよう」のままでは、<br/>資格は使われない。</h2><p>時間が経つほど、学んだときの熱と自信は少しずつ薄れていきます。その間にも、あなたの指導を必要としている人は、別の講座を選んでいるかもしれません。</p><strong>今必要なのは、もう一つ資格を増やすことではなく、<br/>今ある資格を「選ばれる講座」に変える仕組みです。</strong></div>
+      <div className="inactionCopy"><span>YOUR NEXT STEP</span><h2>大切にしてきた夢を、<br/>「いつか」のままにしない。</h2><p>学んできたことも、重ねてきた経験も、あなたにしか届けられない価値です。その教えを待っている人へ、今こそ形にして届けてみませんか。</p><strong>もう一つ資格を増やす前に、<br/>今ある資格を「あなたらしい講座」に変える一歩を。</strong></div>
       <div className="inactionList"><p><b>01</b><span>調べ続けるだけで、公開日は決まらない</span></p><p><b>02</b><span>経験を積めず、講師としての自信も育たない</span></p><p><b>03</b><span>届けたい相手との出会いが先送りになる</span></p></div>
     </section>
 
     <section className="concept" id="future">
-      <div className="conceptInner"><span>THE FUTURE YOU CREATE</span><h2>あなたが教えて、<br/><em>人が喜ぶ講座</em>が始まる。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><div className="futureGrid"><article><b>01</b><h3>見込み客の<br/>リストが作れる</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>学びを求める人に<br/>講座が届いていく</h3></article><article><b>04</b><h3>資格が実績となり<br/>次の機会につながる</h3></article></div><p>「教えたい」という思いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、専用の仕組みが支えます。</p></div>
+      <div className="conceptInner"><span>THE FUTURE YOU CREATE</span><h2>あなたらしく教えて、<br/><em>誰かの笑顔につながる講座</em>が始まる。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><div className="futureGrid"><article><b>01</b><h3>見込み客の<br/>リストが作れる</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>学びを求める人に<br/>講座が届いていく</h3></article><article><b>04</b><h3>資格が実績となり<br/>次の機会につながる</h3></article></div><p>あなたの「教えたい」という想いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、ひとりにせず支えます。</p></div>
     </section>
 
     <section className="how section" id="how">
@@ -111,11 +110,11 @@ export default function Home() {
     </div></section>
 
     <section className="consultation section" id="consultation">
-      <div className="consultationIntro"><span>FREE CONSULTATION</span><h2>まずは、あなたの講座について<br/>無料で相談してみませんか。</h2><p>講座内容が決まっていなくても大丈夫です。フォームを送信しただけで、お申込みになることはありません。</p><ul><li>どんな講座が作れるか知りたい</li><li>費用やサポート内容を確認したい</li><li>集客や運営への不安を相談したい</li></ul></div>
+      <div className="consultationIntro"><span>FREE CONSULTATION</span><h2>あなたらしい講座の第一歩を、<br/>一緒に見つけませんか。</h2><p>まだ講座内容が決まっていなくても大丈夫です。想いや得意なことを伺いながら、どんな講座にできるかを一緒に考えます。フォームを送信しただけで、お申込みになることはありません。</p><ul><li>わたしの経験で何が教えられるか知りたい</li><li>費用やサポート内容を確認したい</li><li>集客や運営への不安を相談したい</li></ul></div>
       <div className="formWrap"><iframe src={formEmbedUrl} title="オンライン講座開講・無料相談フォーム" loading="lazy">読み込んでいます…</iframe><p>フォームが表示されない場合は、<a href={formUrl} target="_blank" rel="noreferrer">Googleフォームを開いてご回答ください</a>。</p></div>
     </section>
 
-    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>COURSE LAUNCH CAMPAIGN</span><h2>あなたの教えを、<br/>オンライン講座で届けませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>まずは、どんな講座が形にできるかをご相談ください。</p><a className="button primary large" href={inquiryUrl}>自分の講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
+    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR DREAM STARTS HERE</span><h2>わたしらしい講座を、<br/>ここから始めませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>夢を夢のままにせず、最初の一歩を一緒に形にしましょう。</p><a className="button primary large" href={inquiryUrl}>わたしらしい講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
     <footer><a className="logo footerLogo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
     <a className="mobileCta" href={inquiryUrl}>無料相談フォームへ <span>→</span></a>
