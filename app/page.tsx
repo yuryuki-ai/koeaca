@@ -58,12 +58,27 @@ export default function Home() {
     </section>
 
     <section className="supportDetails section" id="support">
-      <div className="sectionTitle centered"><span>ONGOING SUPPORT</span><h2>公開して終わりではなく、<br/>講座運営を継続して支えます。</h2></div>
+      <div className="sectionTitle centered"><span>ONGOING SUPPORT</span><h2>講座の企画から、<br/>開講後の運営まで。</h2><p className="supportLead">声の表現アカデミー開講パックでは、オンライン講座の立ち上げと運営に必要な業務を、一貫してサポートします。</p></div>
+      <ul className="supportScope">
+        <li>講座のテーマ・対象者・内容を決める企画支援</li>
+        <li>カリキュラムや教材の制作サポート</li>
+        <li>文章作成を含む講座案内ページの制作</li>
+        <li>通信講座ページの作成・設置</li>
+        <li>メール配信などによる集客サポート</li>
+        <li>実際の講座で生じる指導上の相談</li>
+        <li>受講者への連絡や継続フォローの支援</li>
+        <li>受講者リストを活用した情報発信のサポート</li>
+      </ul>
+      <div className="afterLaunchSupport">
+        <div><small>AFTER LAUNCH</small><h3>講座を作って公開するだけではありません。</h3><p>「どう教えればよいか」「受講者が伸び悩んだとき、どう対応すればよいか」「受講後、どのように次の講座へつなげればよいか」といった、実際に運営を始めてから生じる課題にも対応します。</p></div>
+        <strong>あなたには、ご自身の専門性を生かした<br/>「教えること」に集中していただきます。</strong>
+      </div>
       <div className="supportGrid">
         <article><b>01</b><small>相談回数・期間</small><h3>無制限・無期限でサポート</h3><p>受講料から手数料をいただく仕組みのため、講座を公開している間は、相談回数や期間を設けずサポートします。</p></article>
         <article><b>02</b><small>講座設計・指導</small><h3>企画から実際の指導まで</h3><p>ゼロからの企画、カリキュラム設計、教材づくりに加え、実際の指導で分からないことが出てきた場合もサポートします。</p></article>
         <article><b>03</b><small>販売ページ作成</small><h3>AIと専門スタッフが作成</h3><p>講座の魅力や対象者に合わせて、AIと専門スタッフが販売ページを作成します。</p></article>
       </div>
+      <p className="supportClosing">企画、ページ制作、集客、運営、受講者フォローまで。講座を継続するために必要な仕組みを、声の表現アカデミーが支えます。</p>
     </section>
 
     <section className="platform section" id="platform">
