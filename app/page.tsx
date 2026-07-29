@@ -102,15 +102,15 @@ export default function Home() {
         <article className="caseGroup">
           <div className="caseGroupHeading"><span>添削付き</span><div><small>WITH FEEDBACK</small><h3>朗読検定対策講座の事例</h3></div></div>
           <div className="caseCards">
-            <blockquote><div className="casePerson"><b>A</b><span>プロフェッサーAさん</span></div><p>「月平均で5名の受講申込みがあります。仕事の合間にカフェで休憩中にスマホから添削をしているので、運営の負担はほとんどありません。」</p><strong>月平均 約5名のお申込み</strong></blockquote>
-            <blockquote><div className="casePerson"><b>B</b><span>プロフェッサーBさん</span></div><p>「4級は簡単なので需要があるか不安でしたが、簡単だからこそ添削も楽で、スキマ時間で対応できています。毎月5名ほど新規お申込みがあります。」</p><strong>毎月 約5名の新規お申込み</strong></blockquote>
+            <blockquote><h4 className="caseCatch">仕事の合間にカフェで休憩中に、<br/>スマホから添削。</h4><div className="casePerson"><b>Ａ</b><span>プロフェッサーＡさん</span><strong className="caseIncome">月平均受領額 <em>約72,000円</em></strong></div><p>「月平均で5名の受講申込みがあります。仕事の合間にカフェで休憩中にスマホから添削をしているので、運営の負担はほとんどありません。」</p><strong>月平均 約5名のお申込み</strong></blockquote>
+            <blockquote><h4 className="caseCatch">簡単だからこそ、<br/>添削も楽。</h4><div className="casePerson"><b>Ｂ</b><span>プロフェッサーＢさん</span><strong className="caseIncome">月平均受領額 <em>約39,000円</em></strong></div><p>「4級は、簡単なので需要があるかどうかと不安でしたが、簡単だからこそ添削も楽で、スキマ時間で対応ができています。毎月8名ほど新規お申込みです。」</p><strong>毎月 約8名の新規お申込み</strong></blockquote>
           </div>
         </article>
         <article className="caseGroup videoCases">
           <div className="caseGroupHeading"><span>添削なし</span><div><small>VIDEO COURSE</small><h3>動画講座の事例</h3></div></div>
           <div className="caseCards">
-            <blockquote><div className="casePerson"><b>C</b><span>プロフェッサーCさん</span></div><p>「月平均で7名の新規受講をいただいています。教室やイベント開催で忙しいので、添削ができない自分にはピッタリです。」</p><strong>月平均 約7名の新規受講</strong></blockquote>
-            <blockquote><div className="casePerson"><b>D</b><span>プロフェッサーDさん</span></div><p>「読み聞かせ検定は、動画講座のみでも合格してもらうことができそうだと思い、動画講座にしました。月平均で8名ほど、お申込みをいただいています。」</p><strong>月平均 約8名のお申込み</strong></blockquote>
+            <blockquote><h4 className="caseCatch">添削ができない自分には、<br/>ピッタリ。</h4><div className="casePerson"><b>Ｃ</b><span>プロフェッサーＣさん</span><strong className="caseIncome">月平均受領額 <em>約27,000円</em></strong></div><p>「月平均で7名の新規受講をいただいています。教室やイベント開催で忙しいので、添削ができない自分にはピッタリです。」</p><strong>月平均 約7名の新規受講</strong></blockquote>
+            <blockquote><h4 className="caseCatch">動画講座のみでも、<br/>合格してもらえた。</h4><div className="casePerson"><b>Ｄ</b><span>プロフェッサーＤさん</span><strong className="caseIncome">月平均受領額 <em>約39,000円</em></strong></div><p>「読み聞かせ検定は動画講座のみでも合格してもらうことができそうだと思い、動画講座にしました。月平均で8名ほど、お申込みをいただいています。」</p><strong>月平均 約8名のお申込み</strong></blockquote>
           </div>
         </article>
       </div>
