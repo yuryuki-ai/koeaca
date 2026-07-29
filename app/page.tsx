@@ -1,10 +1,12 @@
 const inquiryUrl = "#consultation";
+const standardOrderUrl = "https://6109kentei.thebase.in/items/152344793";
+const lightOrderUrl = "https://6109kentei.thebase.in/items/152161314";
 const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju4MT14z73Azl-CI85iFAbFC0mzcmfdTxg/viewform?usp=publish-editor";
 const formEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju4MT14z73Azl-CI85iFAbFC0mzcmfdTxg/viewform?embedded=true";
 
 export default function Home() {
   return <main>
-    <header className="header"><a className="logo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><nav><a href="#features">できること</a><a href="#platform">選ばれる理由</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>無料相談</a></header>
+    <header className="header"><a className="logo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><nav><a href="#features">できること</a><a href="#platform">選ばれる理由</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href="#price">お申込み</a></header>
 
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
@@ -14,7 +16,7 @@ export default function Home() {
         <h1>迷う時間はもうおしまい。<br/><em>わたしらしく、まっすぐ夢へ。</em></h1>
         <p className="heroLead">資格を活かして、いつか自分の講座を開きたい。<br/>その想いを、朗読検定合格対策講座と、<br/>あなたに寄り添う専属コンサルティングが形にします。</p>
         <p className="heroPromise">ひとりで迷い続ける時間を、<br/>受講生と出会い、講師として輝く時間に変えます。</p>
-        <div className="heroActions"><a className="button primary" href={inquiryUrl}>わたしらしい講座の始め方を相談する <span>→</span></a><a className="button secondary" href="#features">サポート内容を見る</a></div>
+        <div className="heroActions"><a className="button primary" href="#price">2つのプランから選んで申し込む <span>→</span></a><a className="button secondary" href={inquiryUrl}>迷っている方は無料相談</a></div>
         <p className="limit"><b>合計20名様限定</b><span>選べる2つの開講プラン</span><strong>¥132,000<small>〜（税込）</small></strong></p>
       </div>
     </section>
@@ -94,21 +96,46 @@ export default function Home() {
       <div className="formatBox"><div><small>VIDEO COURSE</small><h3>動画講座</h3><p>受講生が好きな時間に学べる、ストック型の講座。</p></div><i>or</i><div><small>LIVE COURSE</small><h3>ライブ講座</h3><p>リアルタイムで指導し、直接フィードバックできる講座。</p></div></div>
     </section>
 
+    <section className="caseStudies section" id="cases">
+      <div className="sectionTitle centered"><span>PROFESSOR STORIES</span><h2>自分の生活に合わせながら、<br/><em>無理なく続けられています。</em></h2><p className="caseLead">添削付き講座も、添削のない動画講座も。プロフェッサー資格者が、それぞれの働き方に合った形で運営しています。</p></div>
+      <div className="caseGroups">
+        <article className="caseGroup">
+          <div className="caseGroupHeading"><span>添削付き</span><div><small>WITH FEEDBACK</small><h3>朗読検定対策講座の事例</h3></div></div>
+          <div className="caseCards">
+            <blockquote><div className="casePerson"><b>A</b><span>プロフェッサーAさん</span></div><p>「月平均で5名の受講申込みがあります。仕事の合間にカフェで休憩中にスマホから添削をしているので、運営の負担はほとんどありません。」</p><strong>月平均 約5名のお申込み</strong></blockquote>
+            <blockquote><div className="casePerson"><b>B</b><span>プロフェッサーBさん</span></div><p>「4級は簡単なので需要があるか不安でしたが、簡単だからこそ添削も楽で、スキマ時間で対応できています。毎月5名ほど新規お申込みがあります。」</p><strong>毎月 約5名の新規お申込み</strong></blockquote>
+          </div>
+        </article>
+        <article className="caseGroup videoCases">
+          <div className="caseGroupHeading"><span>添削なし</span><div><small>VIDEO COURSE</small><h3>動画講座の事例</h3></div></div>
+          <div className="caseCards">
+            <blockquote><div className="casePerson"><b>C</b><span>プロフェッサーCさん</span></div><p>「月平均で7名の新規受講をいただいています。教室やイベント開催で忙しいので、添削ができない自分にはピッタリです。」</p><strong>月平均 約7名の新規受講</strong></blockquote>
+            <blockquote><div className="casePerson"><b>D</b><span>プロフェッサーDさん</span></div><p>「読み聞かせ検定は、動画講座のみでも合格してもらうことができそうだと思い、動画講座にしました。月平均で8名ほど、お申込みをいただいています。」</p><strong>月平均 約8名のお申込み</strong></blockquote>
+          </div>
+        </article>
+      </div>
+      <p className="caseNote">※掲載内容は個人の実績・感想です。お申込み数や成果を保証するものではありません。</p>
+    </section>
+
     <section className="price section" id="price">
       <div className="sectionTitle centered"><span>CHOOSE YOUR PLAN</span><h2>始め方に合わせて選べる、<br/>2つの開講プラン。</h2><p className="planLead">企画・ページ作成・公開・運営自動化・集客サポートは、どちらのプランにも含まれます。</p></div>
       <div className="planGrid">
-        <article className="priceCard recommended"><span className="planBadge">開講後の手取りを重視</span><small>STANDARD PLAN</small><h2>標準プラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>協会運営手数料</span><strong>20%</strong><small>プラットフォーム利用料等を含む合計 29.5%</small></div><p>初期費用を抑えるよりも、開講後の手取りを多くしたい方に。</p></article>
-        <article className="priceCard lightPlan"><span className="planBadge">初期費用を抑えてスタート</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>協会運営手数料</span><strong>40%</strong><small>プラットフォーム利用料等を含む合計 49.5%</small></div><p>最初にかかる費用を抑えて、講座を始めたい方に。</p></article>
+        <article className="priceCard recommended"><span className="planBadge">長く続けるならおすすめ</span><small>STANDARD PLAN</small><h2>スタンダードプラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>販売手数料 合計</span><strong>29.5%</strong><small>内訳：協会運営20%＋プラットフォーム等9.5%</small></div><p>開講後の手取りを多くし、長く講座を続けたい方に。</p><a className="button primary planApply" href={standardOrderUrl} target="_blank" rel="noreferrer">スタンダードプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
+        <article className="priceCard lightPlan"><span className="planBadge">初期費用を抑えたい方に</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>販売手数料 合計</span><strong>49.5%</strong><small>内訳：協会運営40%＋プラットフォーム等9.5%</small></div><p>初期費用を抑えて、まず講座を始めたい方に。</p><a className="button primary planApply" href={lightOrderUrl} target="_blank" rel="noreferrer">ライトプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
       </div>
-      <div className="planAction"><span className="sharedLimit">プロフェッサー資格者限定・合計20名様</span><a className="button primary wide" href={inquiryUrl}>自分に合うプランを相談する <span>→</span></a><em>お申込み時期・条件の詳細は無料相談でご確認ください</em></div>
-      <div className="recoveryExamples">
+      <div className="planAction"><span className="sharedLimit">プロフェッサー資格者限定・合計20名様</span><p>まだ迷っている方は、お申込み前に不明点をご確認いただけます。</p><a className="button secondary wide" href={inquiryUrl}>無料相談で確認する <span>→</span></a><em>フォームを送信しただけで、お申込みになることはありません</em></div>
+      <details className="recoveryDisclosure">
+        <summary>受講料回収シミュレーションを見る</summary>
+        <div className="recoveryExamples">
         <div className="recoveryHeading"><span>COURSE FEE SIMULATION</span><h3>何名の受講で、初期費用回収の達成ができる？</h3><p>販売手数料を差し引いた講師受取額を、初期費用に充てた場合の目安です。</p></div>
         <div className="recoveryGrid">
           <article><div className="courseName"><small>朗読検定</small><h4>3級対策講座</h4><strong>受講料例 17,800円</strong></div><div className="recoveryPlans"><p><span>スタンダード</span><b>16<small>名</small></b><em>1名あたり受取 12,549円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>200,784円</strong></p><p><span>ライト</span><b>15<small>名</small></b><em>1名あたり受取 8,989円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>134,835円</strong></p></div></article>
           <article><div className="courseName"><small>朗読検定</small><h4>準2級対策講座</h4><strong>受講料例 35,200円</strong></div><div className="recoveryPlans"><p><span>スタンダード</span><b>8<small>名</small></b><em>1名あたり受取 24,816円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>198,528円</strong></p><p><span>ライト</span><b>8<small>名</small></b><em>1名あたり受取 17,776円</em><strong className="cumulativeFee"><small>達成時の累計受取指導料</small>142,208円</strong></p></div></article>
         </div>
         <p className="recoveryNote">※受講料全額をプラットフォーム上で販売し、返金やその他の経費がない場合の概算です。実際の端数処理等により金額が異なる場合があります。</p>
-      </div>
+        </div>
+      </details>
+      <div className="applicationAssurance"><strong>納得してから、お申込みいただけます。</strong><p>料金やサポート内容に不安がある方は、事前に無料相談をご利用ください。なお、お申込み確定後のキャンセル・返金は承っておりません。</p></div>
       <p className="zero">受講料無料の講座・体験講座には、販売手数料がかかりません。</p>
     </section>
 
@@ -120,7 +147,7 @@ export default function Home() {
       <details><summary>初期費用以外に月額費用はかかりますか？</summary><p>月額費用はかかりません。受講申込みがあった場合のみ、受講料から販売手数料等を差し引いた金額を、指定の口座へ送金します。</p></details>
       <details><summary>初期費用を分割で支払えますか？</summary><p>クレジットカードをご利用の場合、カード会社が提供する分割払いをご利用いただけます。利用条件や手数料はカード会社へご確認ください。</p></details>
       <details><summary>売上はいつ入金されますか？</summary><p>月末締め、翌々月末のお支払いとなります。</p></details>
-      <details><summary>申込み後のキャンセルや返金はできますか？</summary><p>お申込み確定後のキャンセルおよび返金は承れません。内容をご確認のうえ、お申込みください。</p></details>
+      <details><summary>申込み後のキャンセルや返金はできますか？</summary><p>ご納得いただいたうえでお申込みいただくため、事前に無料相談で不明点をご確認いただけます。お申込み確定後のキャンセルおよび返金は承っておりません。</p></details>
       <details><summary>以前、開講パッケージに申し込んでいます。</summary><p>以前に「声の表現アカデミー開講パッケージ」へお申込みの方は、新たなお申込みは不要で移行予定です。</p></details>
     </div></section>
 
@@ -129,9 +156,9 @@ export default function Home() {
       <div className="formWrap"><iframe src={formEmbedUrl} title="オンライン講座開講・無料相談フォーム" loading="lazy">読み込んでいます…</iframe><p>フォームが表示されない場合は、<a href={formUrl} target="_blank" rel="noreferrer">Googleフォームを開いてご回答ください</a>。</p></div>
     </section>
 
-    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR DREAM STARTS HERE</span><h2>わたしらしい講座を、<br/>ここから始めませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>夢を夢のままにせず、最初の一歩を一緒に形にしましょう。</p><a className="button primary large" href={inquiryUrl}>わたしらしい講座について相談する <span>→</span></a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
+    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR DREAM STARTS HERE</span><h2>わたしらしい講座を、<br/>ここから始めませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>夢を夢のままにせず、最初の一歩を一緒に形にしましょう。</p><a className="button primary large" href="#price">プランを選んで申し込む <span>→</span></a><a className="finalConsultationLink" href={inquiryUrl}>迷っている方は無料相談へ</a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
     <footer><a className="logo footerLogo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
-    <a className="mobileCta" href={inquiryUrl}>無料相談フォームへ <span>→</span></a>
+    <a className="mobileCta" href="#price">お申込みプランを見る <span>→</span></a>
   </main>;
 }
