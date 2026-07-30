@@ -6,7 +6,7 @@ const formEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju
 
 export default function Home() {
   return <main>
-    <header className="header"><a className="logo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><nav><a href="#features">できること</a><a href="#platform">選ばれる理由</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href="#price">お申込み</a></header>
+    <header className="header"><a className="brandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><nav><a href="#features">できること</a><a href="#platform">選ばれる理由</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href="#price">お申込み</a></header>
 
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
@@ -158,7 +158,7 @@ export default function Home() {
 
     <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR DREAM STARTS HERE</span><h2>わたしらしい講座を、<br/>ここから始めませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>夢を夢のままにせず、最初の一歩を一緒に形にしましょう。</p><a className="button primary large" href="#price">プランを選んで申し込む <span>→</span></a><a className="finalConsultationLink" href={inquiryUrl}>迷っている方は無料相談へ</a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
-    <footer><a className="logo footerLogo" href="#top"><b>声の表現</b><span>ACADEMY</span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
+    <footer><a className="brandLogo footerBrandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
     <a className="mobileCta" href="#price">お申込みプランを見る <span>→</span></a>
   </main>;
 }
