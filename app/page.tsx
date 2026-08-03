@@ -12,17 +12,18 @@ export default function Home() {
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
         <p className="overline">プロフェッサー資格者限定・講座開講パック</p>
-        <p className="campaign">YOUR DREAM, YOUR WAY</p>
-        <h1>迷う時間はもうおしまい。<br/><em>わたしらしく、まっすぐ夢へ。</em></h1>
-        <p className="heroLead">資格を活かして、いつか自分の講座を開きたい。<br/>その想いを、朗読検定合格対策講座と、<br/>あなたに寄り添う専属コンサルティングが形にします。</p>
-        <p className="heroPromise">ひとりで迷い続ける時間を、<br/>受講生と出会い、講師として輝く時間に変えます。</p>
-        <div className="heroActions"><a className="button primary" href="#price">2つのプランから選んで申し込む <span>→</span></a><a className="button secondary" href={inquiryUrl}>迷っている方は無料相談</a></div>
-        <p className="limit"><b>合計20名様限定</b><span>選べる2つの開講プラン</span><strong>¥132,000<small>〜（税込）</small></strong></p>
+        <p className="campaign">FROM QUALIFICATION TO YOUR COURSE</p>
+        <h1>資格を取った、その先へ。<br/><em>あなたの教えを、オンライン講座に。</em></h1>
+        <p className="heroLead">講座の企画、教材、販売ページ、決済、集客、開講後の指導相談まで、協会が一貫してサポート。<br/>2〜4週間を目安に、あなたの経験を「受講生が申し込める講座」へ形にします。</p>
+        <p className="heroPromise">添削なし・動画を見てもらうだけの講座も開講できます。<br/>あなたは、ご自身の専門性を活かした「教えること」に集中できます。</p>
+        <div className="heroActions"><a className="button primary" href={inquiryUrl}>無料で「私に作れる講座」を相談する <span>→</span></a><a className="button secondary" href="#price">ライトプランの内容を見る</a></div>
+        <p className="heroReassurance">相談しただけでお申込みにはなりません。講座内容が決まっていなくても大丈夫です。</p>
+        <p className="limit"><b>個別支援のため合計20名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
       </div>
     </section>
 
     <section className="intro section">
-      <div className="sectionTitle"><span>FOR YOU</span><h2>「わたしにもできるかな」と、<br/>夢の前で立ち止まっていませんか。</h2></div>
+      <div className="sectionTitle"><span>FOR YOU</span><h2>資格も経験もある。<br/>でも、講座にする方法が分からない。</h2><p className="sectionLead">次のどれか一つでも当てはまる方のための、オンライン講座開講パックです。</p></div>
       <div className="worryGrid">
         <article><b>01</b><h3>何を、誰に、どう教えるか<br/>決めきれない</h3><p>知識はあるのに講座の形にできず、考えるほど最初の一歩が重くなる。</p></article>
         <article><b>02</b><h3>準備や運営に追われて<br/>本業と両立できるか不安</h3><p>ページ作成、決済、連絡、出席管理。指導以外の作業が多すぎて手が止まる。</p></article>
@@ -36,7 +37,7 @@ export default function Home() {
     </section>
 
     <section className="concept" id="future">
-      <div className="conceptInner"><span>THE FUTURE YOU CREATE</span><h2>あなたらしく教えて、<br/><em>誰かの笑顔につながる講座</em>が始まる。</h2><p>「声の表現アカデミー」は、朗読・読み聞かせ・アナウンス・ボイストレーニングの総合オンライン学習拠点へ全面リニューアル。講座開講パッケージにお申込みのプロフェッサー資格者の皆さまは、アカデミー内にご自身の講座を開講できます。</p><div className="futureGrid"><article><b>01</b><h3>見込み客の<br/>リストが作れる</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>学びを求める人に<br/>講座が届いていく</h3></article><article><b>04</b><h3>資格が実績となり<br/>次の機会につながる</h3></article></div><p>あなたの「教えたい」という想いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、ひとりにせず支えます。</p></div>
+      <div className="conceptInner"><span>WHAT YOU WILL GAIN</span><h2>講座を持つことで生まれる、<br/><em>4つの具体的な変化。</em></h2><p>講座を作って終わりではありません。教えることを続けながら、受講生との接点と講師としての実績を積み上げていける仕組みをつくります。</p><div className="futureGrid"><article><b>01</b><h3>資格と経験が<br/>自分の商品になる</h3></article><article><b>02</b><h3>運営に追われず<br/>指導に集中できる</h3></article><article><b>03</b><h3>無料体験講座から<br/>見込み客を増やせる</h3></article><article><b>04</b><h3>開講実績が<br/>次の仕事につながる</h3></article></div><p>あなたの「教えたい」という想いを、受講生が申し込める具体的な形へ。最初の構想から公開後の運営まで、ひとりにせず支えます。</p></div>
     </section>
 
     <section className="how section" id="how">
@@ -118,12 +119,12 @@ export default function Home() {
     </section>
 
     <section className="price section" id="price">
-      <div className="sectionTitle centered"><span>CHOOSE YOUR PLAN</span><h2>始め方に合わせて選べる、<br/>2つの開講プラン。</h2><p className="planLead">企画・ページ作成・公開・運営自動化・集客サポートは、どちらのプランにも含まれます。</p></div>
+      <div className="sectionTitle centered"><span>CHOOSE YOUR PLAN</span><h2>まず小さく始めたい方には、<br/><em>ライトプランがおすすめです。</em></h2><p className="planLead">企画・ページ作成・公開・運営自動化・集客サポートは、どちらのプランにも含まれます。</p></div>
       <div className="planGrid">
-        <article className="priceCard recommended"><span className="planBadge">最初から手数料29.5％</span><small>STANDARD PLAN</small><h2>スタンダードプラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>販売手数料 合計</span><strong>29.5%</strong><small>内訳：協会運営20%＋プラットフォーム等9.5%</small></div><p>開講直後から、販売手数料を抑えたい方に。</p><a className="button primary planApply" href={standardOrderUrl} target="_blank" rel="noreferrer">スタンダードプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
-        <article className="priceCard lightPlan"><span className="planBadge">おすすめプラン</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>販売手数料 合計</span><strong>49.5%</strong><small>内訳：協会運営40%＋プラットフォーム等9.5%</small></div><div className="stepUp"><span>自動ステップアップ制度</span><strong>累計売上13万5,000円を達成した翌月から<br/><em>販売手数料 29.5％</em>へ</strong><small>スタンダードプランと同じ手数料率に自動で引き下げます。追加費用や変更手続きは必要ありません。</small></div><p>初期費用を抑えて始めても、高い手数料がずっと続くことはありません。</p><a className="button primary planApply" href={lightOrderUrl} target="_blank" rel="noreferrer">ライトプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
+        <article className="priceCard lightPlan primaryPlan"><span className="planBadge">まず小さく始めたい方に</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>販売手数料 合計</span><strong>49.5%</strong><small>内訳：協会運営40%＋プラットフォーム等9.5%</small></div><div className="stepUp"><span>売上が伸びた後も安心</span><strong>累計売上13万5,000円を達成した翌月から<br/><em>販売手数料 29.5％</em>へ</strong><small>追加費用も変更手続きも不要。高い手数料率がずっと続くことはありません。</small></div><p>初期費用を抑え、無理のない一歩から始めたい方に。</p><a className="button primary planApply" href={lightOrderUrl} target="_blank" rel="noreferrer">ライトプランで講座開講を始める <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
+        <article className="priceCard standardPlan"><span className="planBadge">販売手数料を最初から抑える</span><small>STANDARD PLAN</small><h2>スタンダードプラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>販売手数料 合計</span><strong>29.5%</strong><small>内訳：協会運営20%＋プラットフォーム等9.5%</small></div><p>開講直後から、販売手数料を抑えたい方に。</p><a className="button secondary planApply" href={standardOrderUrl} target="_blank" rel="noreferrer">スタンダードプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
       </div>
-      <div className="planAction"><span className="sharedLimit">プロフェッサー資格者限定・合計20名様</span><p>まだ迷っている方は、お申込み前に不明点をご確認いただけます。</p><a className="button secondary wide" href={inquiryUrl}>無料相談で確認する <span>→</span></a><em>フォームを送信しただけで、お申込みになることはありません</em></div>
+      <div className="planAction"><span className="sharedLimit">企画から公開後まで個別に支援するため、合計20名様限定</span><p>まだ迷っている方は、お申込み前にご自身の経験から作れる講座や、プランの違いをご相談いただけます。</p><a className="button secondary wide" href={inquiryUrl}>無料で「私に作れる講座」を相談する <span>→</span></a><em>フォームを送信しただけで、お申込みになることはありません</em></div>
       <details className="recoveryDisclosure">
         <summary>受講料回収シミュレーションを見る</summary>
         <div className="recoveryExamples">
@@ -135,7 +136,7 @@ export default function Home() {
         <p className="recoveryNote">※受講料全額をプラットフォーム上で販売し、返金やその他の経費がない場合の概算です。ライトプランは累計売上13万5,000円の達成後、翌月から29.5％を適用して試算しています。達成時期や実際の端数処理等により金額が異なる場合があります。</p>
         </div>
       </details>
-      <div className="applicationAssurance"><strong>納得してから、お申込みいただけます。</strong><p>料金やサポート内容に不安がある方は、事前に無料相談をご利用ください。なお、お申込み確定後のキャンセル・返金は承っておりません。</p></div>
+      <div className="applicationAssurance"><strong>申込み前に、講座化できる内容とサポート範囲を確認できます。</strong><p>講座内容が決まっていなくても無料でご相談いただけます。料金や進め方を確認し、納得したうえでお申込みください。無理にお申込みをおすすめすることはありません。</p></div>
       <p className="zero">受講料無料の講座・体験講座には、販売手数料がかかりません。</p>
     </section>
 
@@ -153,13 +154,13 @@ export default function Home() {
     </div></section>
 
     <section className="consultation section" id="consultation">
-      <div className="consultationIntro"><span>FREE CONSULTATION</span><h2>あなたらしい講座の第一歩を、<br/>一緒に見つけませんか。</h2><p>まだ講座内容が決まっていなくても大丈夫です。想いや得意なことを伺いながら、どんな講座にできるかを一緒に考えます。フォームを送信しただけで、お申込みになることはありません。</p><ul><li>わたしの経験で何が教えられるか知りたい</li><li>費用やサポート内容を確認したい</li><li>集客や運営への不安を相談したい</li></ul></div>
+      <div className="consultationIntro"><span>FREE COURSE CONSULTATION</span><h2>「私には何が教えられる？」を、<br/>申込み前に整理できます。</h2><p>まだ講座内容が決まっていなくても大丈夫です。資格・経験・使える時間を伺いながら、どのような講座にできるかを一緒に考えます。相談しただけで、お申込みになることはありません。</p><ul><li>自分の経験から作れる講座を知りたい</li><li>添削付きと動画講座、どちらが合うか知りたい</li><li>費用・集客・開講後の運営を確認したい</li></ul></div>
       <div className="formWrap"><iframe src={formEmbedUrl} title="オンライン講座開講・無料相談フォーム" loading="lazy">読み込んでいます…</iframe><p>フォームが表示されない場合は、<a href={formUrl} target="_blank" rel="noreferrer">Googleフォームを開いてご回答ください</a>。</p></div>
     </section>
 
     <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR DREAM STARTS HERE</span><h2>わたしらしい講座を、<br/>ここから始めませんか。</h2><p>あなたが教えてくれることを、待っている人がいます。<br/>夢を夢のままにせず、最初の一歩を一緒に形にしましょう。</p><a className="button primary large" href="#price">プランを選んで申し込む <span>→</span></a><a className="finalConsultationLink" href={inquiryUrl}>迷っている方は無料相談へ</a><small>20名様限定・プロフェッサー資格者限定</small></div></section>
 
     <footer><a className="brandLogo footerBrandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
-    <a className="mobileCta" href="#price">お申込みプランを見る <span>→</span></a>
+    <a className="mobileCta" href={inquiryUrl}>無料で作れる講座を相談する <span>→</span></a>
   </main>;
 }
