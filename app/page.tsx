@@ -11,7 +11,7 @@ export default function Home() {
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
-        <p className="overline">プロフェッサー資格をお持ちの、40代からの女性へ</p>
+        <p className="overline">プロフェッサー資格をお持ちの、50代からの女性へ</p>
         <p className="campaign">FROM LEARNING TO TEACHING</p>
         <h1>子育てや仕事を優先してきた、あなたへ。<br/><em>これからは、あなたの経験を誰かのために。</em></h1>
         <p className="heroLead"><strong>学ぶ側から教える側へ。</strong><br/>最短14日で、オンライン講師としての一歩を始めませんか。</p>
@@ -26,9 +26,14 @@ export default function Home() {
       <div className="sectionTitle"><span>FROM QUALIFICATION TO ONLINE COURSE</span><h2>資格と指導経験は、もうある。<br/>次はオンラインで募集できる形へ。</h2><p className="sectionLead">必要なのは、新しい資格を増やすことではありません。これまで身につけた知識と経験を、受講生が安心して申し込めるオンライン講座に変えることです。</p></div>
       <div className="worryGrid">
         <article><b>01</b><h3>何を、誰に、どう教えるか<br/>決めきれない</h3><p>知識はあるのに講座の形にできず、考えるほど最初の一歩が重くなる。</p></article>
-        <article><b>02</b><h3>準備や運営に追われて<br/>本業と両立できるか不安</h3><p>ページ作成、決済、連絡、出席管理。指導以外の作業が多すぎて手が止まる。</p></article>
+        <article><b>02</b><h3>パソコンやAIに自信がなく<br/>自分にできるか不安</h3><p>ページ作成、申込み受付、決済、受講者への連絡。分からない操作が多く、最初の一歩を踏み出せない。</p></article>
         <article><b>03</b><h3>つくっても受講生が<br/>集まらない気がする</h3><p>自分ひとりの発信だけで、本当に必要な人へ届くのか自信が持てない。</p></article>
       </div>
+    </section>
+
+    <section className="digitalSupport section">
+      <div className="digitalSupportCopy"><span>NO DIGITAL SKILLS REQUIRED</span><h2>必要なのは、ITの知識ではありません。<br/><em>あなたが積み重ねてきた経験です。</em></h2><p>「講座を開きたいけれど、パソコン操作が不安」「AIを使ったことがなく、オンラインでの販売方法も分からない」という方もご安心ください。</p></div>
+      <div className="digitalSupportAssurance"><h3>パソコンやAIが得意でなくても、<br/>オンライン講師になれます。</h3><p>講座の企画、教材の準備、案内ページの文章作成、申込み・決済の仕組み、受講者への連絡まで、声の表現アカデミーが一緒に整えます。</p><strong>AIやシステムを、ご自身で使いこなす必要はありません。</strong><small>あなたには、これまで学んできたことを「教えること」に集中していただきます。</small></div>
     </section>
 
     <section className="inaction section">
