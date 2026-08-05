@@ -6,17 +6,17 @@ const formEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju
 
 export default function Home() {
   return <main>
-    <header className="header"><a className="brandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><nav><a href="#how">30日の進め方</a><a href="#features">できること</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>無料で講座提案を受ける</a></header>
+    <header className="header"><a className="brandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><nav><a href="#how">最短14日の進め方</a><a href="#features">できること</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>無料で講座提案を受ける</a></header>
 
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
         <p className="overline">プロフェッサー資格者限定・講座開講パック</p>
-        <p className="campaign">YOUR FIRST ONLINE COURSE IN 30 DAYS</p>
-        <h1><span className="heroTarget">まだオンライン講座を持っていないあなたへ。</span>資格と経験を、<br/><em>30日で「募集できる講座」に変える。</em></h1>
+        <p className="campaign">YOUR FIRST ONLINE COURSE IN AS LITTLE AS 14 DAYS</p>
+        <h1><span className="heroTarget">朗読検定対策講座なら、</span>資格と経験を、<br/><em>最短14日で「募集できる講座」に。</em></h1>
         <p className="heroLead">朗読検定合格対策講座を土台に、講座企画・教材・案内受付ページ・募集文面まで一緒に完成。最初のオンライン講座を実際に募集できる状態まで支援します。</p>
         <p className="heroPromise">添削なし・動画を見てもらうだけの講座も開講できます。<br/>募集開始後の集客・指導・受講者対応も継続して支えます。</p>
-        <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><a className="button secondary" href="#how">30日間の進め方を見る</a></div>
+        <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><a className="button secondary" href="#how">最短14日の進め方を見る</a></div>
         <p className="heroReassurance">まずは無料で、あなたに合う最初の講座・対象者・開講手順をご提案します。相談だけでお申込みにはなりません。</p>
         <p className="limit"><b>個別支援のため合計20名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
       </div>
@@ -41,14 +41,12 @@ export default function Home() {
     </section>
 
     <section className="how section" id="how">
-      <div className="sectionTitle centered"><span>YOUR 30-DAY LAUNCH PLAN</span><h2>30日を目安に、<br/><em>募集できる講座まで完成。</em></h2><p className="timelineLead">何を教えるか決めるところから、案内ページを公開して募集を始めるところまで、順番に進めます。</p></div>
+      <div className="sectionTitle centered"><span>YOUR 14-DAY LAUNCH PLAN</span><h2>朗読検定対策講座なら、<br/><em>最短14日で募集開始。</em></h2><p className="timelineLead">既存の講座フォーマットを活用し、講座内容を整えるところから、案内ページを公開して募集を始めるところまで進めます。</p></div>
       <ol className="steps">
-        <li><b>01</b><div><span>WEEK 1 / DESIGN</span><h3>最初の講座を<br/>決める</h3><p>資格・経験・得意分野を整理し、対象者、講座内容、受講後のゴール、受講料を決めます。</p></div></li>
-        <li><b>02</b><div><span>WEEK 2 / MATERIALS</span><h3>教材と指導手順を<br/>整える</h3><p>既存フォーマットを土台に、カリキュラム、教材、受講者への案内を具体化します。</p></div></li>
-        <li><b>03</b><div><span>WEEK 3 / PAGE</span><h3>案内・受付ページを<br/>完成させる</h3><p>講座の魅力が伝わる文章とプロフィールを整え、申込みを受け付けられるページを公開します。</p></div></li>
-        <li><b>04</b><div><span>WEEK 4 / LAUNCH</span><h3>募集を始める</h3><p>募集文面と発信先を準備し、声の表現アカデミーやご自身の媒体から最初の募集を始めます。</p></div></li>
+        <li><b>01</b><div><span>WEEK 1 / COURSE DESIGN</span><h3>講座内容と教材を<br/>整える</h3><p>既存フォーマットを土台に、対象者、受講料、カリキュラム、教材、指導手順を具体化します。</p></div></li>
+        <li><b>02</b><div><span>WEEK 2 / PAGE &amp; LAUNCH</span><h3>案内ページを完成し、<br/>募集を始める</h3><p>講座案内・受付ページと募集文面を整え、声の表現アカデミーや協会メルマガなどで募集を開始します。</p></div></li>
       </ol>
-      <p className="launchSchedule"><span>募集開始までの目安</span><strong>30日</strong><small>※原則的な進行例です。講座内容や準備状況により異なります。</small></p>
+      <p className="launchSchedule"><span>朗読検定対策講座の募集開始まで</span><strong>最短14日</strong><small>※講座内容や準備状況によって期間は異なります。</small></p>
     </section>
 
     <section className="features section" id="features">
@@ -124,7 +122,7 @@ export default function Home() {
         <article className="priceCard lightPlan primaryPlan"><span className="planBadge">まず小さく始めたい方に</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>販売手数料 合計</span><strong>49.5%</strong><small>内訳：協会運営40%＋プラットフォーム等9.5%</small></div><div className="stepUp"><span>売上が伸びた後も安心</span><strong>累計売上13万5,000円を達成した翌月から<br/><em>販売手数料 29.5％</em>へ</strong><small>追加費用も変更手続きも不要。高い手数料率がずっと続くことはありません。</small></div><p>初期費用を抑え、無理のない一歩から始めたい方に。</p><a className="button primary planApply" href={lightOrderUrl} target="_blank" rel="noreferrer">ライトプランで講座開講を始める <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
         <article className="priceCard standardPlan"><span className="planBadge">販売手数料を最初から抑える</span><small>STANDARD PLAN</small><h2>スタンダードプラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>販売手数料 合計</span><strong>29.5%</strong><small>内訳：協会運営20%＋プラットフォーム等9.5%</small></div><p>開講直後から、販売手数料を抑えたい方に。</p><a className="button secondary planApply" href={standardOrderUrl} target="_blank" rel="noreferrer">スタンダードプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
       </div>
-      <div className="planAction"><span className="sharedLimit">企画から公開後まで個別に支援するため、合計20名様限定</span><p>まだ講座内容が決まっていなくても、最初の講座・対象者・受講料・30日間の進め方をご提案します。</p><a className="button secondary wide" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><em>提案を受けただけで、お申込みになることはありません</em></div>
+      <div className="planAction"><span className="sharedLimit">企画から公開後まで個別に支援するため、合計20名様限定</span><p>まだ講座内容が決まっていなくても、最初の講座・対象者・受講料・募集開始までの進め方をご提案します。</p><a className="button secondary wide" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><em>提案を受けただけで、お申込みになることはありません</em></div>
       <div className="applicationAssurance"><strong>申込み前に、講座化できる内容とサポート範囲を確認できます。</strong><p>講座内容が決まっていなくても無料でご相談いただけます。料金や進め方を確認し、納得したうえでお申込みください。無理にお申込みをおすすめすることはありません。</p></div>
       <p className="zero">受講料無料の講座・体験講座には、販売手数料がかかりません。</p>
     </section>
@@ -143,11 +141,11 @@ export default function Home() {
     </div></section>
 
     <section className="consultation section" id="consultation">
-      <div className="consultationIntro"><span>YOUR PERSONAL ONLINE COURSE PROPOSAL</span><h2>あなた専用のオンライン講座を、<br/>無料でご提案します。</h2><p>お持ちの資格と経験を伺い、最初に開く講座、対象者、受講料、準備する内容、募集開始までの進め方を一緒に整理します。まだ講座内容が決まっていなくても大丈夫です。</p><ul><li>最初に開講するオンライン講座の案</li><li>対象者・受講料・講座のゴール</li><li>30日間の準備スケジュール</li></ul></div>
+      <div className="consultationIntro"><span>YOUR PERSONAL ONLINE COURSE PROPOSAL</span><h2>あなた専用のオンライン講座を、<br/>無料でご提案します。</h2><p>お持ちの資格と経験を伺い、最初に開く講座、対象者、受講料、準備する内容、募集開始までの進め方を一緒に整理します。まだ講座内容が決まっていなくても大丈夫です。</p><ul><li>最初に開講するオンライン講座の案</li><li>対象者・受講料・講座のゴール</li><li>最短14日を目安にした準備スケジュール</li></ul></div>
       <div className="formWrap"><iframe src={formEmbedUrl} title="オンライン講座開講・無料相談フォーム" loading="lazy">読み込んでいます…</iframe><p>フォームが表示されない場合は、<a href={formUrl} target="_blank" rel="noreferrer">Googleフォームを開いてご回答ください</a>。</p></div>
     </section>
 
-    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR FIRST ONLINE COURSE IN 30 DAYS</span><h2>まだオンライン講座を<br/>持っていないあなたへ。</h2><p>資格と経験を、30日を目安に「募集できる講座」へ。<br/>まずは、あなたならどんな講座を開けるのか無料提案をお受け取りください。</p><a className="button primary large" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><small>提案を受けただけで申込みにはなりません・20名様限定</small></div></section>
+    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR FIRST ONLINE COURSE IN AS LITTLE AS 14 DAYS</span><h2>朗読検定対策講座なら、<br/>最短14日で募集開始。</h2><p>資格と経験を、「申込みを受け付けられる講座」へ。<br/>まずは、あなたならどんな講座を開けるのか無料提案をお受け取りください。</p><a className="button primary large" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><small>提案を受けただけで申込みにはなりません・20名様限定</small></div></section>
 
     <footer><a className="brandLogo footerBrandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
     <a className="mobileCta" href={inquiryUrl}>無料で講座提案を受ける <span>→</span></a>
