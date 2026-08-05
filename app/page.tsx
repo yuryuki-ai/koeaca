@@ -1,3 +1,5 @@
+import FitCheck from "./FitCheck";
+
 const inquiryUrl = "#consultation";
 const standardOrderUrl = "https://6109kentei.thebase.in/items/152344793";
 const lightOrderUrl = "https://6109kentei.thebase.in/items/152161314";
@@ -15,7 +17,10 @@ export default function Home() {
         <p className="campaign">FROM LEARNING TO TEACHING</p>
         <h1>子育てや仕事を優先してきた、あなたへ。<br/><em>これからは、あなたの経験を誰かのために。</em></h1>
         <p className="heroLead"><strong>学ぶ側から教える側へ。</strong><br/>最短14日で、オンライン講師としての一歩を始めませんか。</p>
-        <p className="heroPromise">添削なし・動画を見てもらうだけの講座も開講できます。<br/>募集開始後の集客・指導・受講者対応も継続して支えます。</p>
+        <div className="heroPromise" aria-label="開講と運営のサポート内容">
+          <p>添削なし・動画を見てもらうだけの講座も開講できます。</p>
+          <p>募集開始後の集客・指導・受講者対応も継続して支えます。</p>
+        </div>
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><a className="button secondary" href="#how">最短14日の進め方を見る</a></div>
         <p className="heroReassurance">まずは無料で、あなたに合う最初の講座・対象者・開講手順をご提案します。相談だけでお申込みにはなりません。</p>
         <p className="limit"><b>個別支援のため合計20名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
@@ -35,6 +40,8 @@ export default function Home() {
       <div className="digitalSupportCopy"><span>NO DIGITAL SKILLS REQUIRED</span><h2>必要なのは、ITの知識ではありません。<br/><em>あなたが積み重ねてきた経験です。</em></h2><p>「講座を開きたいけれど、パソコン操作が不安」「AIを使ったことがなく、オンラインでの販売方法も分からない」という方もご安心ください。</p></div>
       <div className="digitalSupportAssurance"><h3>パソコンやAIが得意でなくても、<br/>オンライン講師になれます。</h3><p>講座の企画、教材の準備、案内ページの文章作成、申込み・決済の仕組み、受講者への連絡まで、声の表現アカデミーが一緒に整えます。</p><strong>AIやシステムを、ご自身で使いこなす必要はありません。</strong><small>あなたには、これまで学んできたことを「教えること」に集中していただきます。</small></div>
     </section>
+
+    <FitCheck />
 
     <section className="inaction section">
       <div className="inactionCopy"><span>START WITH A PROVEN FORMAT</span><h2>最初のオンライン講座は、<br/>決まった型から始められます。</h2><p>まずは、教える内容と目標が明確な「朗読検定合格対策講座」から始められます。決まったフォーマットを土台にするため、一から講座を設計する必要はありません。</p><strong>最初の講座を実際に募集・運営した経験が、次のオリジナル講座をつくる土台になります。</strong></div>
