@@ -87,7 +87,8 @@ export default function Home() {
 
     <section className="platform section" id="platform">
       <div className="sectionTitle centered light"><span>WHY THIS PLATFORM</span><h2>講座を載せるだけではなく、<br/>募集と運営を続けられる基盤。</h2></div>
-      <div className="trustGrid"><article><span>01</span><h3>協会の発信も活用</h3><p>ご自身のSNSやブログだけでなく、声の表現アカデミーや協会の発信も活用して講座を案内します。</p></article><article><span>02</span><h3>申込み窓口を一本化</h3><p>講座説明、プロフィール、申込み導線を一つのページにまとめ、受講希望者が迷わない状態をつくります。</p></article><article><span>03</span><h3>指導以外の運営も支援</h3><p>決済、連絡、受講者フォローなど、オンライン講座を続けるための運営業務も一緒に整えます。</p></article></div>
+      <div className="mailCampaign"><small>PLATFORM × ASSOCIATION NEWSLETTER</small><h3>GMOのプラットフォーム掲載に加えて、<br/><em>協会のメールマガジンでも講座を告知します。</em></h3><p>ご自身のSNSやブログだけに頼るのではなく、協会からも講座の情報を発信。あなたの講座を必要としている人との接点を増やします。</p></div>
+      <div className="trustGrid"><article><span>01</span><h3>協会メルマガで告知</h3><p>完成した講座を、一般社団法人日本朗読検定協会が運営するメールマガジンでもご案内します。</p></article><article><span>02</span><h3>申込み窓口を一本化</h3><p>講座説明、プロフィール、申込み導線を一つのページにまとめ、受講希望者が迷わない状態をつくります。</p></article><article><span>03</span><h3>指導以外の運営も支援</h3><p>決済、連絡、受講者フォローなど、オンライン講座を続けるための運営業務も一緒に整えます。</p></article></div>
     </section>
 
     <section className="possibilities section">
