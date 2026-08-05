@@ -11,10 +11,10 @@ export default function Home() {
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
-        <p className="overline">プロフェッサー資格者限定・講座開講パック</p>
-        <p className="campaign">YOUR FIRST ONLINE COURSE IN AS LITTLE AS 14 DAYS</p>
-        <h1><span className="heroTarget">朗読検定対策講座なら、</span>資格と経験を、<br/><em>最短14日で「募集できる講座」に。</em></h1>
-        <p className="heroLead">朗読検定合格対策講座を土台に、講座企画・教材・案内受付ページ・募集文面まで一緒に完成。最初のオンライン講座を実際に募集できる状態まで支援します。</p>
+        <p className="overline">プロフェッサー資格をお持ちの、40代からの女性へ</p>
+        <p className="campaign">FROM LEARNING TO TEACHING</p>
+        <h1>子育てや仕事を優先してきた、あなたへ。<br/><em>これからは、あなたの経験を誰かのために。</em></h1>
+        <p className="heroLead"><strong>学ぶ側から教える側へ。</strong><br/>最短14日で、オンライン講師としての一歩を始めませんか。</p>
         <p className="heroPromise">添削なし・動画を見てもらうだけの講座も開講できます。<br/>募集開始後の集客・指導・受講者対応も継続して支えます。</p>
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><a className="button secondary" href="#how">最短14日の進め方を見る</a></div>
         <p className="heroReassurance">まずは無料で、あなたに合う最初の講座・対象者・開講手順をご提案します。相談だけでお申込みにはなりません。</p>
