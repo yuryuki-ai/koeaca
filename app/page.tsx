@@ -128,6 +128,33 @@ export default function Home() {
       <p className="caseNote">※掲載内容は個人の実績・感想です。お申込み数や成果を保証するものではありません。</p>
     </section>
 
+    <section className="deadlineBonus section" id="bonus">
+      <div className="bonusHeading">
+        <span className="bonusDeadline">8月10日までのお申込み限定</span>
+        <small>SPECIAL BENEFIT</small>
+        <h2>お持ちの資格に合った、<br/><em>「あなただけの案内・受付ページ」</em>を作成します。</h2>
+        <p>資格を取得したものの、「どうやって申込みを受け付ければよいか分からない」「SNSで紹介したくても、案内するページがない」という方のための限定特典です。</p>
+      </div>
+      <div className="bonusBody">
+        <div className="bonusExamples">
+          <p><span>01</span><b>朗読検定の<br/>案内・受付ページ</b></p>
+          <p><span>02</span><b>読み聞かせ検定の<br/>案内・受付ページ</b></p>
+          <p><span>03</span><b>音読ヘルストレーナー<br/>認定講座の案内・受付ページ</b></p>
+          <p><span>04</span><b>ボイスバイエル®入門講座の<br/>案内・受付ページ</b></p>
+        </div>
+        <div className="bonusDetails">
+          <h3>資格を持っているだけの状態から、<br/><em>申込みを受け付けられる状態へ。</em></h3>
+          <ul>
+            <li>認定講師資格を複数お持ちの場合は、資格の数に応じてそれぞれ作成</li>
+            <li>ページ内に、あなたのプロフィールも掲載可能</li>
+            <li>ホームページ、ブログ、SNS、協会プロフィール欄などで紹介可能</li>
+          </ul>
+          <p>完成後は「詳しくはこちら」「お申込みはこちら」と案内し、実際に申込みやお問い合わせを受け付けられます。</p>
+          <a className="button primary" href="#price">対象プランを確認する <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
     <section className="price section" id="price">
       <div className="sectionTitle centered"><span>CHOOSE YOUR PLAN</span><h2>まず小さく始めたい方には、<br/><em>ライトプランがおすすめです。</em></h2><p className="planLead">企画・ページ作成・公開・運営自動化・集客サポートは、どちらのプランにも含まれます。</p></div>
       <div className="planGrid">
