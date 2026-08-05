@@ -8,7 +8,7 @@ const formEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd-dsCGZZ_4IYSzju
 
 export default function Home() {
   return <main>
-    <header className="header"><a className="brandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><nav><a href="#how">最短14日の進め方</a><a href="#features">できること</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>無料で講座提案を受ける</a></header>
+    <header className="header"><a className="brandLogo headerBrandLogo" href="#top" aria-label="声の表現アカデミー 開講パック トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span><span className="packageLabel">開講パック</span></a><nav><a href="#how">最短14日の進め方</a><a href="#features">できること</a><a href="#price">料金</a><a href="#faq">よくある質問</a></nav><a className="headerCta" href={inquiryUrl}>無料で講座提案を受ける</a></header>
 
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
