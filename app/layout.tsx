@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = (() => {
   const title = "声の表現アカデミー｜学ぶ側から教える側へ";
-  const description = "子育てや仕事を優先してきた50代からの女性へ。パソコンやAIが得意でなくても、資格と経験を誰かのために。最短14日でオンライン講師としての一歩を始められます。";
+  const description = "忙しい方のためのオンライン講座開講パック。企画のたたき台、教材、動画用台本、販売ページ、申込みの仕組みをこちらで作成。最短14日で募集開始できます。";
   return {
     metadataBase:new URL("https://yuryuki-ai.github.io/koeaca/"), title, description,
     openGraph:{title,description,type:"website",images:[{url:"/koeaca/og.png",width:1732,height:910,alt:"声の表現アカデミー 学ぶ側から教える側へ。"}]},

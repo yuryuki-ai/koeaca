@@ -14,17 +14,63 @@ export default function Home() {
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
         <p className="overline">プロフェッサー資格をお持ちの、50代からの女性へ</p>
-        <p className="campaign">FROM LEARNING TO TEACHING</p>
-        <h1>子育てや仕事を優先してきた、あなたへ。<br/><em>これからは、あなたの経験を誰かのために。</em></h1>
-        <p className="heroLead"><strong>学ぶ側から教える側へ。</strong><br/>最短14日で、オンライン講師としての一歩を始めませんか。</p>
+        <p className="campaign">BUILT FOR BUSY TEACHERS</p>
+        <h1>忙しくても始められる理由。<br/><em>ゼロから作る作業は、こちらで引き受けます。</em></h1>
+        <p className="heroLead"><strong>企画のたたき台、必要な教材、動画用の台本はこちらで作ります。</strong><br/>忙しい方のための、オンライン講座開講パックです。</p>
         <div className="heroPromise" aria-label="開講と運営のサポート内容">
-          <p>添削なし・動画を見てもらうだけの講座も開講できます。</p>
-          <p>募集開始後の集客・指導・受講者対応も継続して支えます。</p>
+          <p>開講方法を教えるだけではありません。開講に必要な作業を、こちらで行います。</p>
+          <p>最短14日で募集開始。お忙しい方は、ご都合に合わせたペースで進められます。</p>
         </div>
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>自分専用のオンライン講座提案を受ける <span>→</span></a><a className="button secondary" href="#how">最短14日の進め方を見る</a></div>
         <p className="heroReassurance">まずは無料で、あなたに合う最初の講座・対象者・開講手順をご提案します。相談だけでお申込みにはなりません。</p>
         <p className="limit"><b>個別支援のため合計20名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
       </div>
+    </section>
+
+    <section className="workRelief section" id="work-relief">
+      <div className="workReliefHeading">
+        <span>YOU DO NOT HAVE TO DO IT ALL</span>
+        <h2>講座を始めるために、<br/><em>今より忙しくなる必要はありません。</em></h2>
+        <p>時間を取られそうな作業を一人で抱えず、ご自身のペースで準備できます。</p>
+      </div>
+      <div className="timeReliefGrid">
+        <p><b>01</b><span>毎週、決まった時間を空ける必要はありません。</span></p>
+        <p><b>02</b><span>長時間の打ち合わせを何度も行う必要はありません。</span></p>
+        <p><b>03</b><span>添削なし・動画を見てもらうだけの講座も開講できます。</span></p>
+        <p><b>04</b><span>動画は短く分けて撮影。一日ですべて撮る必要はありません。</span></p>
+        <p><b>05</b><span>教材や販売ページを、一人でゼロから作る必要はありません。</span></p>
+        <p><b>06</b><span>ご自身の予定に合わせたペースで準備を進められます。</span></p>
+      </div>
+      <div className="responsibilityIntro">
+        <small>WHO DOES WHAT?</small>
+        <h3>開講方法を教えるだけではありません。<br/><em>開講に必要な作業を、こちらで行います。</em></h3>
+      </div>
+      <div className="responsibilityGrid">
+        <article className="academyDoes">
+          <header><span>声の表現アカデミーが行うこと</span><strong>作成・設置・支援</strong></header>
+          <ul>
+            <li>講座企画のたたき台を作る</li>
+            <li>カリキュラムを組み立てる</li>
+            <li>必要な教材を作る</li>
+            <li>動画収録用の台本を作る</li>
+            <li>講座案内・販売ページを作る</li>
+            <li>申込み・決済の仕組みを設置する</li>
+            <li>メール等で集客を支援する</li>
+            <li>開講後の運営・指導上の相談に対応する</li>
+          </ul>
+        </article>
+        <article className="teacherDoes">
+          <header><span>講師にお願いすること</span><strong>確認・経験・指導</strong></header>
+          <ul>
+            <li>作成した内容を確認する</li>
+            <li>ご自身の経験や考えを加える</li>
+            <li>台本を見ながら動画を収録する</li>
+            <li>必要な場合だけ、添削や受講者対応を行う</li>
+          </ul>
+          <p>あなたには、ご自身の専門性を生かした「教えること」に集中していただきます。</p>
+        </article>
+      </div>
+      <div className="pacePromise"><span>早く開講したい方は</span><strong>最短14日で募集開始</strong><i>お忙しい方は、ご都合に合わせたペースで進められます。</i></div>
     </section>
 
     <section className="intro section">
