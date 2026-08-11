@@ -98,7 +98,7 @@ export default function Home() {
 
     <section className="deadlineBonus section" id="bonus">
       <div className="bonusHeading">
-        <span className="bonusDeadline">8月10日までのお申込み限定</span>
+        <span className="bonusDeadline">8月15日までのお申込み限定</span>
         <small>SPECIAL BENEFIT</small>
         <h2>お持ちの資格に合った、<br/><em>「あなただけの案内・受付ページ」</em>を作成します。</h2>
         <p>資格を取得したものの、「どうやって申込みを受け付ければよいか分からない」「SNSで紹介したくても、案内するページがない」という方のための限定特典です。</p>
