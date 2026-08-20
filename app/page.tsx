@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>打合せなしで、無料の講座案を受け取る <span>→</span></a><a className="button secondary" href="#cases">講師の事例を見る</a></div>
         <p className="heroReassurance">約3分のフォーム入力。この時点では打合せ不要で、お申込みにもなりません。</p>
-        <p className="limit"><b>個別支援のため合計20名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
+        <p className="limit"><b>個別支援のため合計5名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
       </div>
     </section>
 
@@ -149,7 +149,7 @@ export default function Home() {
         <article className="priceCard lightPlan primaryPlan"><span className="planBadge">まず小さく始めたい方に</span><small>LIGHT PLAN</small><h2>ライトプラン</h2><div className="priceValue"><i>¥</i><b>132,000</b><span>（税込）</span></div><del>通常価格 ¥198,000</del><div className="planFee"><span>販売手数料 合計</span><strong>49.5%</strong><small>内訳：協会運営40%＋プラットフォーム等9.5%</small></div><div className="stepUp"><span>売上が伸びた後も安心</span><strong>累計売上13万5,000円を達成した翌月から<br/><em>販売手数料 29.5％</em>へ</strong><small>追加費用も変更手続きも不要。高い手数料率がずっと続くことはありません。</small></div><p>初期費用を抑え、無理のない一歩から始めたい方に。</p><a className="button primary planApply" href={lightOrderUrl} target="_blank" rel="noreferrer">ライトプランで講座開講を始める <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
         <article className="priceCard standardPlan"><span className="planBadge">販売手数料を最初から抑える</span><small>STANDARD PLAN</small><h2>スタンダードプラン</h2><div className="priceValue"><i>¥</i><b>198,000</b><span>（税込）</span></div><del>通常価格 ¥250,000</del><div className="planFee"><span>販売手数料 合計</span><strong>29.5%</strong><small>内訳：協会運営20%＋プラットフォーム等9.5%</small></div><p>開講直後から、販売手数料を抑えたい方に。</p><a className="button secondary planApply" href={standardOrderUrl} target="_blank" rel="noreferrer">スタンダードプランに申し込む <span>→</span></a><em className="orderNote">BASEのお申込みページへ移動します</em></article>
       </div>
-      <div className="planAction"><span className="sharedLimit">企画から公開後まで個別に支援するため、合計20名様限定</span><p>まだ講座内容が決まっていなくても、最初の講座・対象者・受講料・募集開始までの進め方をご提案します。</p><a className="button secondary wide" href={inquiryUrl}>打合せなしで、無料の講座案を受け取る <span>→</span></a><em>約3分のフォーム入力。この時点では打合せ不要で、お申込みにもなりません</em></div>
+      <div className="planAction"><span className="sharedLimit">企画から公開後まで個別に支援するため、合計5名様限定</span><p>まだ講座内容が決まっていなくても、最初の講座・対象者・受講料・募集開始までの進め方をご提案します。</p><a className="button secondary wide" href={inquiryUrl}>打合せなしで、無料の講座案を受け取る <span>→</span></a><em>約3分のフォーム入力。この時点では打合せ不要で、お申込みにもなりません</em></div>
       <div className="applicationAssurance"><strong>申込み前に、講座化できる内容とサポート範囲を確認できます。</strong><p>講座内容が決まっていなくても無料でご相談いただけます。料金や進め方を確認し、納得したうえでお申込みください。無理にお申込みをおすすめすることはありません。</p></div>
       <p className="zero">受講料無料の講座・体験講座には、販売手数料がかかりません。</p>
     </section>
@@ -172,7 +172,7 @@ export default function Home() {
       <div className="formWrap"><iframe src={formEmbedUrl} title="オンライン講座開講・無料相談フォーム" loading="lazy">読み込んでいます…</iframe><p>フォームが表示されない場合は、<a href={formUrl} target="_blank" rel="noreferrer">Googleフォームを開いてご回答ください</a>。</p></div>
     </section>
 
-    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR FIRST ONLINE COURSE IN AS LITTLE AS 14 DAYS</span><h2>朗読検定対策講座なら、<br/>最短14日で募集開始。</h2><p>資格と経験を、「申込みを受け付けられる講座」へ。<br/>まずは、あなたならどんな講座を開けるのか無料提案をお受け取りください。</p><a className="button primary large" href={inquiryUrl}>打合せなしで、無料の講座案を受け取る <span>→</span></a><small>約3分のフォーム入力・この時点では打合せ不要・20名様限定</small></div></section>
+    <section className="finalCta"><div className="rings bottom" aria-hidden="true"><i/><i/><i/><b/></div><div><span>YOUR FIRST ONLINE COURSE IN AS LITTLE AS 14 DAYS</span><h2>朗読検定対策講座なら、<br/>最短14日で募集開始。</h2><p>資格と経験を、「申込みを受け付けられる講座」へ。<br/>まずは、あなたならどんな講座を開けるのか無料提案をお受け取りください。</p><a className="button primary large" href={inquiryUrl}>打合せなしで、無料の講座案を受け取る <span>→</span></a><small>約3分のフォーム入力・この時点では打合せ不要・5名様限定</small></div></section>
 
     <footer><a className="brandLogo footerBrandLogo" href="#top" aria-label="声の表現アカデミー トップへ"><span className="brandLogoCrop"><img src="/koeaca/koe-academy-logo-sheet.png" alt="声の表現アカデミー"/></span></a><p>一般社団法人 日本朗読検定協会</p><small>© 一般社団法人 日本朗読検定協会</small></footer>
     <a className="mobileCta" href={inquiryUrl}>打合せなしで無料の講座案を受け取る <span>→</span></a>
