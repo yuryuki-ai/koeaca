@@ -14,6 +14,11 @@ export default function Home() {
     <section className="hero" id="top">
       <div className="rings" aria-hidden="true"><i/><i/><i/><b/></div>
       <div className="heroInner">
+        <a className="extensionBanner" href="#bonus">
+          <small>好評につき期間延長</small>
+          <strong>限定特典のお申込みは 8月25日まで</strong>
+          <span>資格ごとの専用受付ページを作成します <b>→</b></span>
+        </a>
         <p className="overline">プロフェッサー資格をお持ちの、50代からの女性へ</p>
         <p className="campaign">BUILT FOR BUSY TEACHERS</p>
         <h1>忙しくても始められる理由。<br/><em>ゼロから作る作業は、こちらで引き受けます。</em></h1>
@@ -25,6 +30,19 @@ export default function Home() {
         <div className="heroActions"><a className="button primary" href={inquiryUrl}>打合せなしで、無料の講座案を受け取る <span>→</span></a><a className="button secondary" href="#cases">講師の事例を見る</a></div>
         <p className="heroReassurance">約3分のフォーム入力。この時点では打合せ不要で、お申込みにもなりません。</p>
         <p className="limit"><b>個別支援のため合計20名様限定</b><span>初期費用を抑えて始める</span><strong>¥132,000<small>（税込）</small></strong></p>
+      </div>
+    </section>
+
+    <section className="qualificationBridge section">
+      <div className="qualificationBridgeHeading">
+        <span>FROM QUALIFICATION TO BUSINESS</span>
+        <h2>資格は、教える力の証明です。<br/><em>しかし、申込みが集まる仕組みではありません。</em></h2>
+        <p>資格を取得しても、誰に何を教え、いくらで提供し、どこから申し込んでもらうかは自動的には決まりません。能力が足りないのではなく、資格と仕事の間に「講座として届ける仕組み」が必要なのです。</p>
+      </div>
+      <div className="qualificationBridgeGrid">
+        <article><b>01</b><h3>誰に、何を教えるかを<br/>講座として設計する</h3><p>資格・経験・得意分野を整理し、対象者と受講後のゴールが明確な講座にします。</p></article>
+        <article><b>02</b><h3>価値が伝わる商品と<br/>受付ページにする</h3><p>カリキュラム、教材、受講料、プロフィール、申込み導線を一つの形に整えます。</p></article>
+        <article><b>03</b><h3>必要な人へ届けて<br/>募集と運営を続ける</h3><p>協会の発信も活用し、募集文面、決済、受講者対応まで継続できる仕組みをつくります。</p></article>
       </div>
     </section>
 
@@ -76,7 +94,7 @@ export default function Home() {
 
     <section className="experienceProof section">
       <div className="experienceProofCopy"><span>YOUR EXPERIENCE IS ENOUGH</span><h2>華やかな経歴より、<br/><em>初心者だった経験が役に立ちます。</em></h2></div>
-      <div className="experienceProofBody"><p>アナウンサーやナレーターとしての出演歴がなくても、講座はつくれます。初めて朗読を学ぶ方や検定を受ける方が求めているのは、必ずしも有名な講師ではありません。</p><strong>「初心者の気持ちが分かる」「つまずいたところを丁寧に説明できる」という経験が、受講生にとっての価値になります。</strong><p>資格を取得するまでに学び、練習し、できなかったことをできるようにしてきた経験。それが、あなたに教えてほしい人のための教材になります。</p></div>
+      <div className="experienceProofBody"><p>アナウンサーやナレーターとしての出演歴がなくても、講座はつくれます。最初から朗読が上手だった人よりも、できなかったことを練習して身につけた人のほうが、初心者のつまずきを具体的に説明できます。</p><ul><li>人前で読むことが苦手だった経験</li><li>検定合格まで練習を続けた経験</li><li>一本調子や発声の悩みを克服した経験</li><li>生徒に伝わる説明を工夫してきた経験</li></ul><strong>自分では当たり前だと思っている経験が、これから学ぶ人にとっては「教えてほしい内容」になります。</strong><p>資格を取得するまでに学び、練習し、できなかったことをできるようにしてきた経験。その過程こそが、あなたに教えてほしい人のための教材になります。</p></div>
     </section>
 
     <CaseStudies />
@@ -98,7 +116,7 @@ export default function Home() {
 
     <section className="deadlineBonus section" id="bonus">
       <div className="bonusHeading">
-        <span className="bonusDeadline">8月15日までのお申込み限定</span>
+        <span className="bonusDeadline">好評につき、8月25日まで延長</span>
         <small>SPECIAL BENEFIT</small>
         <h2>お持ちの資格に合った、<br/><em>「あなただけの案内・受付ページ」</em>を作成します。</h2>
         <p>資格を取得したものの、「どうやって申込みを受け付ければよいか分からない」「SNSで紹介したくても、案内するページがない」という方のための限定特典です。</p>
