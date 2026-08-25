@@ -5,5 +5,5 @@
 
 /* Use the horizontal logo from the lower part of the supplied logo sheet. */
 .brand span{position:relative;width:216px;height:42px}
-.brand img{position:absolute;top:-199px;left:-44px;width:300px;max-width:none;transform:none}
-@media(max-width:600px){.brand span{width:150px;height:31px}.brand img{top:-141px;left:-31px;width:212px}}
+.brand img{position:absolute;top:-171px;left:-42px;width:300px;max-width:none;transform:none}
+@media(max-width:600px){.brand span{width:150px;height:31px}.brand img{top:-121px;left:-30px;width:212px}}
